@@ -1,4 +1,4 @@
-# INT lab-book
+# My INT lab-book
 - My personal lab-notebook for my internship at the Institut de Neurosciences de la Timone [(INT, Marseille, France)](http://www.int.univ-amu.fr/).
 - Supervised by [Emmanuel Daucé](http://emmanuel.dauce.free.fr/) (MC, Ecole Centrale Marseille).
 - Description of my internship project:
