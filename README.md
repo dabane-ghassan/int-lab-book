@@ -30,11 +30,11 @@
 
 
 
-# References
+# Papers
 [*[1] Emmanuel Daucé, Pierre Albiges, Laurent U. Perrinet; A dual foveal-peripheral visual processing model implements efficient saccade selection. Journal of Vision 2020;20(8):22.*](https://jov.arvojournals.org/article.aspx?articleid=2770680)
 
 [*[2] Max Jaderberg, Karen Simonyan, Andrew Zisserman, Koray Kavukcuoglu; Spatial Transformer Networks. arXiv:1506.02025*](https://arxiv.org/abs/1506.02025)
 
 # Miscellaneous
 
-- Deepmind's NIPS 2015 Video experiment on STNs [here](https://youtu.be/Ywv0Xi2-14Y)
+- DeepMind's NIPS 2015 Video experiment on STNs [here](https://youtu.be/Ywv0Xi2-14Y)
