@@ -23,7 +23,7 @@
 - Meeting with the supervisor, wednesday april 7th, 10 a.m. 🚩
 - Checking the source code of the What/Where network repo. 🚩
 - Checking some Pytorch tutorials. 🚩
-  - ~~~Official Tutorial [here](https://pytorch.org/tutorials/beginner/basics/intro.html)~~~✅
+  - ~~Official Tutorial [here](https://pytorch.org/tutorials/beginner/basics/intro.html)~~ ✅
 - Thinking about a way to integrate the STN module into the What/Where model &#8594; Reproducing Figure 4 from the original paper <sup>1</sup>. 🚩
 - Preparing slides for the first oral presentation at friday. 🚩
 
