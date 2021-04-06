@@ -1,0 +1,9 @@
+watermark
+easydict
+LogGabor
+matplotlib
+numpy
+torch
+pyqrcode 
+pypng
+MotionClouds
