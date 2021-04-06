@@ -13,7 +13,7 @@
 
 - ~~Setting up a notebook repo on github.~~ ✅
 - Knocking down a few pages from Andriy Burkov's Hundred page machine learning book. 🚩
-- Installing CUDA toolkit and PyTorch. 
+- ~~Installing CUDA toolkit and PyTorch~~. ✅
 
 - Reading up on Spatial Transformers:
   - Reading the original 2015 paper<sup>2</sup>. 🚩
@@ -23,7 +23,8 @@
 - Meeting with the supervisor, wednesday april 7th, 10 a.m. 🚩
 - Checking the source code of the What/Where network repo. 🚩
 - Checking some Pytorch tutorials. 🚩
-- Thinking about a way to integrate the STN module into the What/Where model &#8594; Reproducing Figure 4 from the original paper <sup>1</sup>.
+- Thinking about a way to integrate the STN module into the What/Where model &#8594; Reproducing Figure 4 from the original paper <sup>1</sup>. 🚩
+- Preparing slides for the first oral presentation at friday. 🚩
 
 ## **Week 2** - *12th to 19th April, 2021*
 
@@ -32,3 +33,4 @@
 [*[1] Emmanuel Daucé, Pierre Albiges, Laurent U. Perrinet; A dual foveal-peripheral visual processing model implements efficient saccade selection. Journal of Vision 2020;20(8):22.*](https://jov.arvojournals.org/article.aspx?articleid=2770680)
 
 [*[2] Max Jaderberg, Karen Simonyan, Andrew Zisserman, Koray Kavukcuoglu; Spatial Transformer Networks. arXiv:1506.02025*](https://arxiv.org/abs/1506.02025)
+
