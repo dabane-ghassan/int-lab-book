@@ -37,4 +37,4 @@
 
 # Miscellaneous
 
-- DeepMind's NIPS 2015 Video experiment on STNs [here](https://youtu.be/Ywv0Xi2-14Y)
+- DeepMind's NIPS 2015 Video experiment on STNs [here](https://goo.gl/dqEhUu)
