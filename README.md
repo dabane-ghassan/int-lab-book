@@ -17,7 +17,7 @@
 
 - Reading up on Spatial Transformers:
   - Reading the original 2015 paper<sup>2</sup>. 🚩
-  - Finish up the [presentation](https://youtu.be/6NOQC_fl1hQ) given by the authors. 🚩
+  - ~~Finish up a [presentation](https://youtu.be/6NOQC_fl1hQ).~~ ✅
   - Reading The PyTorch tutorial [here](https://pytorch.org/tutorials/intermediate/spatial_transformer_tutorial.html). 🚩
 
 - Meeting with the supervisor, wednesday april 7th, 10 a.m. 🚩
@@ -29,8 +29,12 @@
 ## **Week 2** - *12th to 19th April, 2021*
 
 
+
 # References
 [*[1] Emmanuel Daucé, Pierre Albiges, Laurent U. Perrinet; A dual foveal-peripheral visual processing model implements efficient saccade selection. Journal of Vision 2020;20(8):22.*](https://jov.arvojournals.org/article.aspx?articleid=2770680)
 
 [*[2] Max Jaderberg, Karen Simonyan, Andrew Zisserman, Koray Kavukcuoglu; Spatial Transformer Networks. arXiv:1506.02025*](https://arxiv.org/abs/1506.02025)
 
+# Miscellaneous
+
+- Deepmind's NIPS 2015 Video experiment on STNs [here](https://youtu.be/Ywv0Xi2-14Y)
