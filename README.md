@@ -1,4 +1,5 @@
 # My INT lab-book
+[![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://forthebadge.com)
 - My personal lab-notebook for my internship at the Institut de Neurosciences de la Timone [(INT, Marseille, France)](http://www.int.univ-amu.fr/).
 - Supervised by [Emmanuel Daucé](http://emmanuel.dauce.free.fr/) (MC, Ecole Centrale Marseille).
 - Description of my internship project:
@@ -8,8 +9,22 @@
 # Tasks
 ## **Week 1** - *5th to 12th April, 2021*
 
+- Setting up a notebook repo on github. ✅
+- Knocking down a few pages from Andriy Burkov's Hundred page machine learning book. 🚩
+
+- Reading up on Spatial Transformers:
+  - Reading the original 2015 paper<sup>2. 🚩
+  - Finish up the [presentation](https://youtu.be/6NOQC_fl1hQ) given by the authors. 🚩
+  - Reading The PyTorch tutorial [here](https://pytorch.org/tutorials/intermediate/spatial_transformer_tutorial.html). 🚩
+
+- Meeting with the supervisor, wednesday april 7th, 10 a.m. 🚩
+- Checking the source code of the What/Where network repo. 🚩
+- Checking some Pytorch tutorials. 🚩
 
 ## **Week 2** - *12th to 19th April, 2021*
+
+
+
 
 
 
@@ -18,3 +33,7 @@
 [*[1] Emmanuel Daucé, Pierre Albiges, Laurent U. Perrinet; A dual foveal-peripheral visual processing model implements efficient saccade selection. Journal of Vision 2020;20(8):22.*](https://jov.arvojournals.org/article.aspx?articleid=2770680)
 
 [*[2] Max Jaderberg, Karen Simonyan, Andrew Zisserman, Koray Kavukcuoglu; Spatial Transformer Networks. arXiv:1506.02025*](https://arxiv.org/abs/1506.02025)
+
+
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-markdown.svg)](https://forthebadge.com)
