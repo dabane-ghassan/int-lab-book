@@ -27,6 +27,9 @@
 - ~~Thinking about a way to integrate the STN module into the What/Where model &#8594; Reproducing Figure 4 from the original paper <sup>1</sup>.~~ ✅
 - Preparing slides for the first oral presentation at friday. 🚩
 - Feeding the MNIST specially modified dataset in a STN. (28x28 with Shift, mask and MotionClouds) 🚩
+- Factorize STN : 🚩
+  - ~~Separate it into a .py file.~~ ✅
+  - Documentation 🚩
 
 ## **Week 2** - *12th to 19th April, 2021*
 
