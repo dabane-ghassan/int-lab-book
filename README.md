@@ -16,7 +16,7 @@
 - ~~Installing CUDA toolkit and PyTorch~~. ✅
 
 - ~~Reading up on Spatial Transformers~~:
-  - ~~Reading the original 2015 paper<sup>2</sup>.~~ ✅
+  - ~~Reading the original 2015 paper~~<sup>2</sup> ✅
   - ~~Finish up a [presentation](https://youtu.be/6NOQC_fl1hQ).~~ ✅
   - ~~Reading The PyTorch tutorial [here](https://pytorch.org/tutorials/intermediate/spatial_transformer_tutorial.html).~~ ✅
 
