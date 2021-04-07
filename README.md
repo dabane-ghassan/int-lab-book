@@ -12,7 +12,7 @@
 ## **Week 1** - *5th to 12th April, 2021*
 
 - ~~Setting up a notebook repo on github.~~ ✅
-- ~~Knocking down a few pages from Andriy Burkov's Hundred page machine learning book. ~~✅
+- ~~Knocking down a few pages from Andriy Burkov's Hundred page machine learning book.~~ ✅
 - ~~Installing CUDA toolkit and PyTorch~~. ✅
 
 - ~~Reading up on Spatial Transformers~~:
