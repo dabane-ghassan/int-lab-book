@@ -30,7 +30,7 @@
 - [x] Feeding the MNIST specially modified dataset in a STN. (28x28 with Shift, mask and MotionClouds):
     - [ ] Success rate can't go above 11% on a noisy 28x28, must rethink strategy.
 
-- Factorizing STN : 🚩
+- [ ] Factorizing STN : 🚩
   - [x] Separate it into a .py file.
   - [ ] Documentation 🚩
 
