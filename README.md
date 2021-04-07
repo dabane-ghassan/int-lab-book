@@ -11,25 +11,30 @@
 # Tasks
 ## **Week 1** - *5th to 12th April, 2021*
 
-- [x] Setting up a notebook repo on github. ✅
-- [x] Knocking down a few pages from Andriy Burkov's Hundred page machine learning book. ✅
-- [x] Installing CUDA toolkit and PyTorch. ✅
+- [x] Setting up a notebook repo on github. 
+- [x] Knocking down a few pages from Andriy Burkov's Hundred page machine learning book. 
+- [x] Installing CUDA toolkit and PyTorch. 
 
 - [x] Reading up on Spatial Transformers:
-  - [x] Reading the original 2015 paper<sup>2</sup> ✅
-  - [x] Finish up a [presentation](https://youtu.be/6NOQC_fl1hQ). ✅
-  - [x] Reading The PyTorch tutorial [here](https://pytorch.org/tutorials/intermediate/spatial_transformer_tutorial.html). ✅
+  - [x] Reading the original 2015 paper<sup>2</sup> 
+  - [x] Finish up a [presentation](https://youtu.be/6NOQC_fl1hQ). 
+  - [x] Reading The PyTorch tutorial [here](https://pytorch.org/tutorials/intermediate/spatial_transformer_tutorial.html). 
 
-- [x] Meeting with the supervisor, wednesday april 7th, 10 a.m. ✅
-- [x] Checking the source code of the What/Where network [repo](https://github.com/laurentperrinet/WhereIsMyMNIST). ✅
-- [x] Checking some Pytorch tutorials. ✅
-  - [x] Official Tutorial [here](https://pytorch.org/tutorials/beginner/basics/intro.html) ✅
-- [x] Thinking about a way to integrate the STN module into the What/Where model &#8594; Reproducing Figure 4 from the original paper <sup>1</sup>. ✅
-- [ ] Preparing slides for the first oral presentation at friday. 🚩
-- [ ] Feeding the MNIST specially modified dataset in a STN. (28x28 with Shift, mask and MotionClouds) 🚩
-- Factorize STN : 🚩
-  - [x] Separate it into a .py file. ✅
+- [x] Meeting with the supervisor, wednesday april 7th, 10 a.m. 
+- [x] Checking the source code of the What/Where network [repo](https://github.com/laurentperrinet/WhereIsMyMNIST). 
+- [x] Checking some Pytorch tutorials. 
+  - [x] Official Tutorial [here](https://pytorch.org/tutorials/beginner/basics/intro.html) 
+- [x] Thinking about a way to integrate the STN module into the What/Where model &#8594; Reproducing Figure 4 from the original paper <sup>1</sup>. 
+- [ ] Preparing slides for the first oral presentation at friday. (post-poned till the 16th) 🚩
+
+- [x] Feeding the MNIST specially modified dataset in a STN. (28x28 with Shift, mask and MotionClouds):
+    - [ ] Success rate can't go above 11% on a noisy 28x28, must rethink strategy.
+
+- Factorizing STN : 🚩
+  - [x] Separate it into a .py file.
   - [ ] Documentation 🚩
+
+- [ ] Modifying the CNN architecture of the Localization network (in the STN) to take into account the noisy 128x128 input.
 
 ## **Week 2** - *12th to 19th April, 2021*
 
