@@ -8,6 +8,27 @@
 
 > In contrast with computer vision, biological vision is characterized by an anisotropic sensor (**The Retina**) as well as the ability to **move** the eyesight to   different locations in the visual scene through ocular **saccades**. To better understand how the human eye analyzes visual scenes, a bio-inspired artificial  vision  model was recently suggested by ***Daucé et al (2020) <sup>1</sup>***.The goal of this master’s internship would be to compare the results obtained by Daucé et   al with some of the more classical attentional computer vision models like the ***Spatial transformer network <sup>2</sup>*** where the visual input undergoes a foveal   deformation.
 
+
+
+# Preliminary results
+
+## 28x28 Noisy MNIST without a shift (i_offset ==0  && j_offset == 0)
+
+> A few examples from the dataset:
+
+![28x28 noisy no shift](figures/data_28x28_noisy_no_shift_.png)
+
+
+> After transformation with a STN:
+
+![stn results 28x28 noisy no shift](figures/stn_28x28_noisy_no_shift.png)
+
+
+
+
+
+
+
 # Tasks
 ## **Week 1** - *5th to 12th April, 2021*
 
@@ -29,6 +50,7 @@
 
 - [x] Feeding the MNIST specially modified dataset in a STN. (28x28 with Shift, mask and MotionClouds):
     - [ ] Success rate can't go above 11% on a noisy 28x28, must rethink strategy.
+    - [x] Success rate of 94% on a noisy without shift 28x28 dataset. 
 
 - [ ] Factorizing STN : 🚩
   - [x] Separate it into a .py file.
