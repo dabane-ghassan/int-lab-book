@@ -91,7 +91,7 @@ class WhatBackground(object):
         self.seed = seed
 
     def __call__(self, sample):
-
+	
         data = np.array(sample)
         N_pic = data.shape[0]
         if data.min() != data.max():
