@@ -56,7 +56,12 @@
   - [x] Separate it into a .py file.
   - [ ] Documentation 🚩
 
+- [ ] Starting the Deep learning with Pytorch book to get a better grip of what's happening.
+
 - [ ] Modifying the CNN architecture of the Localization network (in the STN) to take into account the noisy 128x128 input.
+
+
+
 
 ## **Week 2** - *12th to 19th April, 2021*
 
