@@ -60,7 +60,8 @@
 
 - [ ] Modifying the CNN architecture of the Localization network (in the STN) to take into account the noisy 128x128 input.
 
-
+- [ ] Reading up on CNNs.
+    - [ ] Colah's blog article [here](http://colah.github.io/posts/2014-07-Conv-Nets-Modular/)
 
 
 ## **Week 2** - *12th to 19th April, 2021*
