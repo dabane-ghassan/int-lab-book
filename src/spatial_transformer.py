@@ -46,8 +46,9 @@ class SpatialTransformer(nn.Module):
         xs = self.localization(x)
         xs = xs.view(-1, 10 * 3 * 3)
         theta = self.fc_loc(xs)
+        # resizing theta
         theta = theta.view(-1, 2, 3)
-
+	# grid generator => transformation on paraùet 
         grid = F.affine_grid(theta, x.size())
         x = F.grid_sample(x, grid)
 
