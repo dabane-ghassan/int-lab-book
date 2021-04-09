@@ -61,7 +61,8 @@
 - [ ] Reading up on CNNs.
     - [ ] Colah's blog article [here](http://colah.github.io/posts/2014-07-Conv-Nets-Modular/)
 
-- [ ] Integrated LeNet Network with the Spatial Transformer and Test on a 28x28 Noisy MNIST with eccentricity of 2.
+- [x] Integrated LeNet Network with the Spatial Transformer and Test on a 28x28 Noisy MNIST with eccentricity of 2.
+- [x] A second meeting with M. Daucé and M. Perrinet
 
 - [ ] Reproduce the classification accuracy map with the same range as the what network.
 - [ ] Modifying the CNN architecture of the Localization network (in the STN) to take into account the noisy 128x128 input.
