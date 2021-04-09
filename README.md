@@ -12,6 +12,17 @@
 
 # Preliminary results
 
+## 28x28 Noisy trained on a shift std from 0-15 (over 75 epochs like the generic what pathway)
+
+- Central accuracy of **92%** and general accuracy of **45%** 
+- ***~11-12% better than generic what pathway***.
+
+![example generic stn](figures/results_trained.png)
+
+
+
+
+
 ## 28x28 Noisy MNIST without a shift (i_offset ==0  && j_offset == 0)
 
 > A few examples from the dataset:
