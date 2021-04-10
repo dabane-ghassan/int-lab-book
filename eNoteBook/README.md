@@ -39,8 +39,9 @@
 - [x] Integrated LeNet Network with the Spatial Transformer and Test on a 28x28 Noisy MNIST with eccentricity of 2.
 - [x] A second meeting with M. Daucé and M. Perrinet
 - [x] First BraiNets team meeting
-
+- [x] Train the STN on a shift dependant dataset like the generic what pathway in the article.
 - [ ] Reproduce the classification accuracy map with the same range as the what network.
+
 - [ ] Modifying the CNN architecture of the Localization network (in the STN) to take into account the noisy 128x128 input.
 
 
