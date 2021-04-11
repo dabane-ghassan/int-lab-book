@@ -17,8 +17,11 @@
 - Central accuracy of **92%** and general accuracy of **45%** 
 - ***~11-12% better than generic what pathway***.
 
-![example generic stn](figures/results_trained.png)
+Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
+:-------------------------:|:-------------------------:
+![acc map stn](figures/stn_28x28_accuracy_map.png)  |  ![acc map what](figures/what_map.png)
 
+![example generic stn](figures/results_trained.png)
 
 ## 28x28 Noisy MNIST without a shift (i_offset ==0  && j_offset == 0)
 
@@ -26,12 +29,9 @@
 
 ![28x28 noisy no shift](figures/data_28x28_noisy_no_shift_.png)
 
-
 > After transformation with a STN:
 
 ![stn results 28x28 noisy no shift](figures/stn_28x28_noisy_no_shift.png)
-
-
 
 # Papers
 
