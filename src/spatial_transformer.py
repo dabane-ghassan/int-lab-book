@@ -1,26 +1,38 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Wed Apr  7 12:58:39 2021
+An implementation of Deepmind's Spatial Transformer Module.
 
-@author: ghassan
+@author: Ghassan Dabane
 """
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-
-class SpatialTransNet(nn.Module):
-
-    def __init__(self):
-        super(SpatialTransNet, self).__init__()
+class SpatialTransformer(nn.Module):
+    """A spatial transformer plug and play module.
+    
+    Attributes
+    ----------
+    self.localization: nn.Sequential
+        The localization network of the spatial transformer.
         
-        self.conv1 = nn.Conv2d(1, 20, 5, 1)
-        self.conv2 = nn.Conv2d(20, 50, 5, 1)
-        self.fc1 = nn.Linear(4*4*50, 500)
-        self.fc2 = nn.Linear(500, 10)
+    self.fc_loc: nn.Sequential
+        The regressor for the transformation parameters theta, fully connected
+        layers.
 
-        # The localization-network
+    """
+    def __init__(self: object) -> None:
+        """Class constructor.
+
+        Returns
+        -------
+        None.
+
+        """
+        super(SpatialTransformer, self).__init__()
+
         self.localization = nn.Sequential(
             nn.Conv2d(1, 8, kernel_size=7),
             nn.MaxPool2d(2, stride=2),
@@ -30,7 +42,6 @@ class SpatialTransNet(nn.Module):
             nn.ReLU(True)
         )
 
-        # Regressor for the 3 * 2 affine matrix
         self.fc_loc = nn.Sequential(
             nn.Linear(10 * 3 * 3, 32),
             nn.ReLU(True),
@@ -39,31 +50,33 @@ class SpatialTransNet(nn.Module):
 
         # Initialize the weights/bias with identity transformation
         self.fc_loc[2].weight.data.zero_()
-        self.fc_loc[2].bias.data.copy_(torch.tensor([1, 0, 0, 0, 1, 0], dtype=torch.float))
+        self.fc_loc[2].bias.data.copy_(torch.tensor([1, 0, 0, 0, 1, 0],
+                                                    dtype=torch.float))
 
-    # Spatial transformer network forward function
-    def stn(self, x):
+    def stn(self: object, x: torch.Tensor) -> torch.Tensor:
+        """The Spatial Transformer module's forward function, pass through
+        the localization network, predict transformation parameters theta,
+        generate a grid and apply the transformation parameters theta on it
+        and finally sample the grid using an interpolation.
+
+        Parameters
+        ----------
+        x : torch.Tensor
+            The input tensor.
+
+        Returns
+        -------
+        x : torch.Tensor
+            The output (transformed) tensor.
+
+        """
         xs = self.localization(x)
         xs = xs.view(-1, 10 * 3 * 3)
         theta = self.fc_loc(xs)
         # resizing theta
         theta = theta.view(-1, 2, 3)
-	    # grid generator => transformation on parameter 
+        # grid generator => transformation on parameter 
         grid = F.affine_grid(theta, x.size())
         x = F.grid_sample(x, grid)
 
         return x
-
-    def forward(self, x):
-        # transform the input
-        x = self.stn(x)
-
-        # Perform the usual forward pass
-        x = F.relu(self.conv1(x))
-        x = F.max_pool2d(x, 2, 2)
-        x = F.relu(self.conv2(x))
-        x = F.max_pool2d(x, 2, 2)
-        x = x.view(-1, 4*4*50)
-        x = F.relu(self.fc1(x))
-        x = self.fc2(x)
-        return x #F.log_softmax(x, dim=1)
