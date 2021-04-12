@@ -96,7 +96,7 @@ def init(filename=None, verbose=1, log_interval=100, do_compute=True):
     if filename is None:
         do_recompute = True
         import datetime
-        filename = '../data/' + datetime.datetime.now().date().isoformat()
+        filename = '../../data/' + datetime.datetime.now().date().isoformat()
         print('Using filename=', filename)
     else:
         do_recompute = False

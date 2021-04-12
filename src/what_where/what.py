@@ -4,11 +4,11 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 from torchvision import datasets, transforms
-from main import MNIST
+from what_where.main import MNIST
 from torch.autograd import Variable
 import MotionClouds as mc
 import os
-from display import minmax
+from what_where.display import minmax
 from PIL import Image
 import datetime
 import sys
