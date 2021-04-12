@@ -21,20 +21,16 @@
 - [x] Checking some Pytorch tutorials. 
   - [x] Official Tutorial [here](https://pytorch.org/tutorials/beginner/basics/intro.html) 
 - [x] Thinking about a way to integrate the STN module into the What/Where model &#8594; Reproducing Figure 4 from the original paper <sup>1</sup>. 
-- [ ] Preparing slides for the first oral presentation at friday. (post-poned till the 16th) 🚩
 
 - [x] Feeding the MNIST specially modified dataset in a STN. (28x28 with Shift, mask and MotionClouds):
-    - [ ] Success rate can't go above 11% on a noisy 28x28, must rethink strategy.
+    - [x] Success rate can't go above 11% on a noisy 28x28, must rethink strategy.
     - [x] Success rate of 94% on a noisy without shift 28x28 dataset. 
 
-- [ ] Factorizing STN : 🚩
+- [x] Factorizing STN : 
   - [x] Separate it into a .py file.
-  - [ ] Documentation 🚩
+  - [x] Documentation
 
 - [x] Starting the Deep learning with Pytorch book to get a better grip of what's happening.
-
-- [ ] Reading up on CNNs.🚩
-    - [ ] Colah's blog article [here](http://colah.github.io/posts/2014-07-Conv-Nets-Modular/)🚩
 
 - [x] Integrated LeNet Network with the Spatial Transformer and Test on a 28x28 Noisy MNIST with eccentricity of 2.
 - [x] A second meeting with M. Daucé and M. Perrinet
@@ -42,12 +38,19 @@
 - [x] Train the STN on a shift dependant dataset like the generic what pathway in the article.
 - [x] Reproduce the classification accuracy map with the same range as the what network.
 
-- [ ] Modifying the CNN architecture of the Localization network (in the STN) to take into account the noisy 128x128 input.🚩
-
-
 
 ## **Week 2** - *12th to 19th April, 2021*
 
+- [x] Factorizing Spatial Transformer Module and Documentation.
+
+- [ ] Reading up on CNNs.🚩
+    - [ ] Colah's blog article [here](http://colah.github.io/posts/2014-07-Conv-Nets-Modular/)🚩
+
+- [ ] Modifying the CNN architecture of the Localization network (in the STN) to take into account the noisy 128x128 input.🚩
+
+- [ ] Preparing slides for the first oral presentation at friday.🚩
+- [ ] Second BraiNets team meeting.
+- [ ] Meeting with M. Daucé Wednesday at 10 a.m
 
 
 
