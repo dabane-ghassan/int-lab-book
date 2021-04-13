@@ -45,12 +45,13 @@
 
 - [ ] Reading up on CNNs.🚩
     - [ ] Colah's blog article [here](http://colah.github.io/posts/2014-07-Conv-Nets-Modular/)🚩
+    - [ ] A good medium article on convolutions [here](https://towardsdatascience.com/intuitively-understanding-convolutions-for-deep-learning-1f6f42faee1)
 
 - [ ] Modifying the CNN architecture of the Localization network (in the STN) to take into account the noisy 128x128 input.🚩
 
 - [ ] Reading the paper about NLP transformers on images<sup>3</sup>
 - [ ] Preparing slides for the first oral presentation at friday.🚩
-- [ ] Second BraiNets team meeting.
+- [x] Second BraiNets team meeting.
 - [ ] Meeting with M. Daucé Wednesday at 10 a.m
 
 
