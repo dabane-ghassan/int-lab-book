@@ -14,7 +14,7 @@
 
 ## 28x28 Noisy trained on a shift std from 0-15 (over 75 epochs like the generic what pathway)
 
-- Central accuracy of **92%** and general accuracy of **45%**, compared to **84%** and **34%** in the generic what pathway, respectively.
+- Central accuracy of **93%** and general accuracy of **45%**, compared to **84%** and **34%** in the generic what pathway, respectively.
 
 Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
 :-------------------------:|:-------------------------:
