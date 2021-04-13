@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 #import SLIP for whitening and PIL for resizing
 import SLIP
-from display import pe
+from what_where.display import pe
 
 ##########################################################################################################@
 ##########################################################################################################@

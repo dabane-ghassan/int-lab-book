@@ -1,8 +1,8 @@
 import os
 import torch
-from main import init, MetaML
-from where import Where as ML
-from what import WhatNet
+from what_where.main import init, MetaML
+from what_where.where import Where as ML
+from what_where.what import WhatNet
 import numpy as np
 import sys
 opts = dict(filename='../data/2020-02-02', verbose=0, log_interval=0, do_compute=False  if len(sys.argv) > 1 else True)
