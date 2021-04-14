@@ -53,7 +53,8 @@
 - [ ] Preparing slides for the first oral presentation at friday.🚩
 - [x] Second BraiNets team meeting.
 - [ ] Meeting with M. Daucé Wednesday at 10 a.m
-
+- [ ] 28x28 STN can't apply different crops, find out why:
+  - [x] Tried on 20 epochs instead of 5 on a single value of shift std (0 and 5), **failed**.
 
 
 
