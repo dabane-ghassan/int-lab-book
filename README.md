@@ -16,6 +16,13 @@
 
 - Central accuracy of **93%** and general accuracy of **45%**, compared to **84%** and **34%** in the generic what pathway, respectively.
 
+
+> Training statistics:
+
+![training stn 28x28](figures/loss_acc_training_stn_28x28.png)
+
+> Accuracy map comparaison with the generic what pathway from the paper with the same training parameters:
+
 Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
 :-------------------------:|:-------------------------:
 ![acc map stn](figures/stn_28x28_accuracy_map.png)  |  ![acc map what](figures/what_map.png)
