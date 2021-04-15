@@ -28,7 +28,7 @@ class STN(nn.Module):
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         # transform the input
-        x = self.transformer_module.stn(x)
+        x, _ = self.transformer_module.stn(x)
 
         # Perform the usual forward pass
         x = F.relu(self.conv1(x))
