@@ -16,7 +16,7 @@
   - [x] Finish up a [presentation](https://youtu.be/6NOQC_fl1hQ). 
   - [x] Reading The PyTorch tutorial [here](https://pytorch.org/tutorials/intermediate/spatial_transformer_tutorial.html). 
 
-- [x] Meeting with the supervisor, wednesday april 7th, 10 a.m. 
+- [x] Meeting with the supervisor,**wednesday april 7th, 10:00**. 
 - [x] Checking the source code of the What/Where network [repo](https://github.com/laurentperrinet/WhereIsMyMNIST). 
 - [x] Checking some Pytorch tutorials. 
   - [x] Official Tutorial [here](https://pytorch.org/tutorials/beginner/basics/intro.html) 
@@ -33,7 +33,7 @@
 - [x] Starting the Deep learning with Pytorch book to get a better grip of what's happening.
 
 - [x] Integrated LeNet Network with the Spatial Transformer and Test on a 28x28 Noisy MNIST with eccentricity of 2.
-- [x] A second meeting with M. Daucé and M. Perrinet
+- [x] A second meeting with M. Daucé and M. Perrinet, **friday, 10:15**.
 - [x] First BraiNets team meeting
 - [x] Train the STN on a shift dependant dataset like the generic what pathway in the article.
 - [x] Reproduce the classification accuracy map with the same range as the what network.
@@ -57,17 +57,16 @@
   - [x] Tried changing the loss function, **failed**.
   - [x] Tried changing the optimizer, **worked**.
 
-- [x] Meeting with the head of Polytech computer science engineering school, **wednesday 6 p.m**
+- [x] Meeting with the head of Polytech computer science engineering school, **wednesday, 18:00**
 
 - [ ] Investigate Adam Vs. SGD:
   - [x] Check if <img src="https://latex.codecogs.com/gif.latex?\theta"/> is the same for every input while training on Adam. **Same <img src="https://latex.codecogs.com/gif.latex?\bold{\theta}"/>**
 
 - [x] Retrained the 28x28 network with SGD, even a better performance (ofcourse).
-- [ ] Presentation about the internship (overview or general approach), **friday 3:50 p.m**
-- [ ] A RDV with a professor in M2 Artificial intelligence study path, **friday 1 p.m**
-- [ ] Meeting with M. Daucé, **friday at 10 a.m**
+- [ ] Presentation about the internship (overview or general approach), **friday, 15:10**
+- [ ] A RDV with a professor in M2 Artificial intelligence study path, **friday, 13:00**
+- [ ] Meeting with M. Daucé, **friday, 10:00**
 - [ ] Modifying the CNN architecture of the Localization network (in the STN) to take into account the noisy 128x128 input.🚩
-
 
 # Ideas
 
