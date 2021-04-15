@@ -62,6 +62,7 @@
 - [ ] Investigate Adam Vs. SGD:
   - [x] Check if <img src="https://latex.codecogs.com/gif.latex?\theta"/> is the same for every input while training on Adam. **Same <img src="https://latex.codecogs.com/gif.latex?\bold{\theta}"/>**
 
+- [x] Retrained the 28x28 network with SGD, even a better performance (ofcourse).
 - [ ] Presentation about the internship (overview or general approach), **friday 3:50 p.m**
 - [ ] A RDV with a professor in M2 Artificial intelligence study path, **friday 1 p.m**
 - [ ] Meeting with M. Daucé, **friday at 10 a.m**
