@@ -27,7 +27,6 @@ Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
 :-------------------------:|:-------------------------:
 ![acc map stn](figures/stn_28x28_accuracy_map.png)  |  ![acc map what](figures/what_map.png)
 
-![example generic stn](figures/results_trained.png)
 
 ## 28x28 Noisy MNIST without a shift (i_offset ==0  && j_offset == 0)
 
