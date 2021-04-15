@@ -43,19 +43,27 @@
 
 - [x] Factorizing Spatial Transformer Module and Documentation.
 
-- [ ] Reading up on CNNs.🚩
-    - [ ] Colah's blog article [here](http://colah.github.io/posts/2014-07-Conv-Nets-Modular/)🚩
-    - [ ] A good medium article on convolutions [here](https://towardsdatascience.com/intuitively-understanding-convolutions-for-deep-learning-1f6f42faee1)
-
-- [ ] Modifying the CNN architecture of the Localization network (in the STN) to take into account the noisy 128x128 input.🚩
+- [ ] Reading up on CNNs.
+    - [ ] Colah's blog article [here](http://colah.github.io/posts/2014-07-Conv-Nets-Modular/)
+    - [ ] A good medium article on convolutions [here](https://towardsdatascience.com/intuitively-understanding-convolutions-for-deep-learning-1f6f42faee1)🚩
 
 - [ ] Reading the paper about NLP transformers on images<sup>3</sup>
-- [ ] Preparing slides for the first oral presentation at friday.🚩
+- [x] Preparing slides for the first oral presentation at friday.
 - [x] Second BraiNets team meeting.
-- [ ] Meeting with M. Daucé Wednesday at 10 a.m
-- [ ] 28x28 STN can't apply different crops, find out why:
-  - [x] Tried on 20 epochs instead of 5 on a single value of shift std (0 and 5), **failed**.
 
+- [x] 28x28 STN can't apply different crops, find out why:
+  - [x] Tried on 20 epochs instead of 5 on a single value of shift std (0 and 5), **failed**.
+  - [x] Tried changing the structure of the network, **failed**.
+  - [x] Tried changing the loss function, **failed**.
+  - [x] Tried changing the optimizer, **worked**.
+
+- [x] Meeting with the head of Polytech computer science engineering school, **wednesday 6 p.m**
+
+- [ ] Investigate Adam Vs. SGD
+- [ ] Presentation about the internship (overview or general approach), **friday 3:50 p.m**
+- [ ] A RDV with a professor in M2 Artificial intelligence study path, **friday 1 p.m**
+- [ ] Meeting with M. Daucé, **friday at 10 a.m**
+- [ ] Modifying the CNN architecture of the Localization network (in the STN) to take into account the noisy 128x128 input.🚩
 
 
 # Ideas
