@@ -45,8 +45,9 @@
 
 - [ ] Reading up on CNNs.
     - [ ] Colah's blog article [here](http://colah.github.io/posts/2014-07-Conv-Nets-Modular/)
-    - [ ] A good medium article on convolutions [here](https://towardsdatascience.com/intuitively-understanding-convolutions-for-deep-learning-1f6f42faee1)🚩
-
+    - [x] A good medium article on convolutions [here](https://towardsdatascience.com/intuitively-understanding-convolutions-for-deep-learning-1f6f42faee1)🚩
+    - [x] Computerphile videos
+  
 - [ ] Reading the paper about NLP transformers on images<sup>3</sup>
 - [x] Preparing slides for the first oral presentation at friday.
 - [x] Second BraiNets team meeting.
@@ -61,12 +62,14 @@
 
 - [ ] Investigate Adam Vs. SGD:
   - [x] Check if <img src="https://latex.codecogs.com/gif.latex?\theta"/> is the same for every input while training on Adam. **Same <img src="https://latex.codecogs.com/gif.latex?\bold{\theta}"/>**
-
+  - [ ] Try Adam with Threshold = False, if it doesn't work, go with SGD.
+- [x] Meeting with M. Daucé, **friday, 10:00**
 - [x] Retrained the 28x28 network with SGD, even a better performance (ofcourse).
 - [ ] Presentation about the internship (overview or general approach), **friday, 15:10**
 - [ ] A RDV with a professor in M2 Artificial intelligence study path, **friday, 13:00**
-- [ ] Meeting with M. Daucé, **friday, 10:00**
+
 - [ ] Modifying the CNN architecture of the Localization network (in the STN) to take into account the noisy 128x128 input.🚩
+  - [ ] Replacing LeNet with a more elaborate network (maybe try CIFAR as an intermediate step)
 
 # Ideas
 
