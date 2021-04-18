@@ -72,7 +72,7 @@
 - [x] Retrained the 28x28 network with SGD, even a better performance (ofcourse).
 - [x] Presentation about the internship (overview or general approach), **friday, 15:10**
 - [x] A RDV with a professor in M2 Artificial intelligence study path, **friday, 13:00**
-
+- [ ] Recalculate the accuracy map.
 
 
 ## **Week 3** - *19th to 26th April, 2021*
@@ -83,10 +83,8 @@
   - [ ] Replacing LeNet with a more elaborate network (maybe try CIFAR as an intermediate step)
 
 - [x] Third BraiNets team meeting.
+
 # Ideas
 
 - Try to feed the STN the log polar input.
 - Semi-supervised approach
-
-
-
