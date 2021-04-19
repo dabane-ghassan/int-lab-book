@@ -43,11 +43,11 @@
 
 - [x] Factorizing Spatial Transformer Module and Documentation.
 
-- [ ] Reading up on CNNs.
-    - [ ] Colah's blog article [here](http://colah.github.io/posts/2014-07-Conv-Nets-Modular/)
+- [x] Reading up on CNNs.
+    - [x] Colah's blog article [here](http://colah.github.io/posts/2014-07-Conv-Nets-Modular/)
     - [x] A good medium article on convolutions [here](https://towardsdatascience.com/intuitively-understanding-convolutions-for-deep-learning-1f6f42faee1)
     - [x] Computerphile videos
-    - [ ] A medium article on parameters [here](https://towardsdatascience.com/understanding-and-calculating-the-number-of-parameters-in-convolution-neural-networks-cnns-fc88790d530d)
+    - [x] A medium article on parameters [here](https://towardsdatascience.com/understanding-and-calculating-the-number-of-parameters-in-convolution-neural-networks-cnns-fc88790d530d)
   
 - [x] Preparing slides for the first oral presentation at friday.
 - [x] Second BraiNets team meeting.
@@ -72,7 +72,7 @@
 - [x] Retrained the 28x28 network with SGD, even a better performance (ofcourse).
 - [x] Presentation about the internship (overview or general approach), **friday, 15:10**
 - [x] A RDV with a professor in M2 Artificial intelligence study path, **friday, 13:00**
-- [ ] Recalculate the accuracy map.
+- [x] Recalculate the accuracy map.
 
 
 ## **Week 3** - *19th to 26th April, 2021*
