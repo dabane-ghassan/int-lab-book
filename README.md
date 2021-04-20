@@ -3,17 +3,14 @@
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/for-robots.svg)](https://forthebadge.com)
 
-
 - Supervised by [Emmanuel Daucé](http://emmanuel.dauce.free.fr/) (MC, Ecole Centrale Marseille).
 - Description of my internship project:
 
 > In contrast with computer vision, biological vision is characterized by an anisotropic sensor (**The Retina**) as well as the ability to **move** the eyesight to   different locations in the visual scene through ocular **saccades**. To better understand how the human eye analyzes visual scenes, a bio-inspired artificial  vision  model was recently suggested by ***Daucé et al (2020) <sup>1</sup>***.The goal of this master’s internship would be to compare the results obtained by Daucé et   al with some of the more classical attentional computer vision models like the ***Spatial transformer network <sup>2</sup>*** where the visual input undergoes a foveal   deformation.
 
-
 # Preliminary results
 
-
-## Exploring the 28x28 Noisy MNIST dataset with a Spatial Transformer. 
+## Exploring the 28x28 Noisy MNIST dataset. 
 
 > Taking a look at a few examples from the dataset:
 
@@ -23,8 +20,7 @@
 
 ![stn results 28x28 noisy no shift](figures/stn_28x28_noisy_no_shift.png)
 
-
-## The Generic Spatial Transformer Network 
+## The Generic Spatial Transformer Network - 28x28 Noisy shifted MNIST
 
 - 28x28 Noisy MNIST dataset, with a digit shift standard deviation within the range [0,15].
 - While training, Each 20 epochs, increment the shift standard deviation by 1 (SGD).
@@ -44,7 +40,14 @@ Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
 
 > A test on a noisy dataset with a shift standard deviation = 7
 
-![results](figures/results_trained.png) 
+![results](figures/results_trained.png)
+
+## Exploring the 128x128 Noisy MNIST dataset <sup>1</sup>.
+
+> Taking a look at a few examples:
+
+![128x128 noisy shift dataset](figures/data_128x128_noisy_no_shift_.png)
+
 
 # Papers
 

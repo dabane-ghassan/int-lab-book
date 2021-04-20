@@ -83,10 +83,12 @@
 - [x] Replacing the results with SGD results (way better, yay!).
 - [x] Cleaning the repository a little bit.
 - [x] Adding a new repository to store some old notebooks and figures that are not used.
+
 - [ ] Modifying the CNN architecture of the Localization network (in the STN) to take into account the noisy 128x128 input.🚩
   - [ ] Replacing LeNet with a more elaborate network (maybe try CIFAR as an intermediate step)
 
 - [ ] Thinking about refactoring all the code in separate scripts.
+  - [x] Factored view_dataset() in a function in utils.py
 
 ## **Week 4** - *26th of April till 2nd of May, 2021*
 ## **Week 5** - *3rd till 9th of May, 2021*
