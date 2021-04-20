@@ -8,9 +8,11 @@
 
 > In contrast with computer vision, biological vision is characterized by an anisotropic sensor (**The Retina**) as well as the ability to **move** the eyesight to   different locations in the visual scene through ocular **saccades**. To better understand how the human eye analyzes visual scenes, a bio-inspired artificial  vision  model was recently suggested by ***Daucé et al (2020) <sup>1</sup>***.The goal of this master’s internship would be to compare the results obtained by Daucé et   al with some of the more classical attentional computer vision models like the ***Spatial transformer network <sup>2</sup>*** where the visual input undergoes a foveal   deformation.
 
-# Preliminary results
+# Progress
 
-## Exploring the 28x28 Noisy MNIST dataset. 
+## The Generic Spatial Transformer Network Vs. The What pathway<sup>1</sup>
+
+### Exploring the 28x28 Noisy MNIST dataset. 
 
 > Taking a look at a few examples from the dataset:
 
@@ -20,16 +22,17 @@
 
 ![stn results 28x28 noisy no shift](figures/stn_28x28_noisy_no_shift.png)
 
-## The Generic Spatial Transformer Network - 28x28 Noisy shifted MNIST
-
-- 28x28 Noisy MNIST dataset, with a digit shift standard deviation within the range [0,15].
+### Training
+- 28x28 Noisy MNIST dataset, with a digit shift standard deviation within the range [0, 15].
 - While training, Each 20 epochs, increment the shift standard deviation by 1 (SGD).
-
-- **Overall results**: *Central* accuracy of **96%** and *general* accuracy of **51%**, compared to **84%** and **34%** in the generic what pathway, respectively.
 
 > Training statistics:
 
 ![training stn 28x28](figures/loss_acc_training_stn_28x28.png)
+
+### Performance
+
+- **Overall results**: *Central* accuracy of **96%** and *general* accuracy of **51%**, compared to **84%** and **34%** in the generic what pathway, respectively.
 
 > Accuracy map comparaison with the generic what pathway from the paper with the same training parameters:
 
@@ -42,7 +45,9 @@ Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
 
 ![results](figures/results_trained.png)
 
-## Exploring the 128x128 Noisy MNIST dataset <sup>1</sup>.
+## The Spatial Transformer Network Vs. The What/Where pathway<sup>1</sup>
+
+### Exploring the 128x128 Noisy MNIST dataset <sup>1</sup>.
 
 > Taking a look at a few examples:
 
