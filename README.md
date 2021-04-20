@@ -12,10 +12,24 @@
 
 # Preliminary results
 
-## 28x28 Noisy trained on a shift std from 0-15 (over 80 epochs like the generic what pathway)
 
-- Central accuracy of **93%** and general accuracy of **45%**, compared to **84%** and **34%** in the generic what pathway, respectively.
+## Exploring the 28x28 Noisy MNIST dataset with a Spatial Transformer. 
 
+> Taking a look at a few examples from the dataset:
+
+![28x28 noisy no shift](figures/data_28x28_noisy_no_shift_.png)
+
+> After transformation with a STN:
+
+![stn results 28x28 noisy no shift](figures/stn_28x28_noisy_no_shift.png)
+
+
+## The Generic Spatial Transformer Network 
+
+- 28x28 Noisy MNIST dataset, with a digit shift standard deviation within the range [0,15].
+- While training, Each 20 epochs, increment the shift standard deviation by 1 (SGD).
+
+- **Overall results**: *Central* accuracy of **96%** and *general* accuracy of **51%**, compared to **84%** and **34%** in the generic what pathway, respectively.
 
 > Training statistics:
 
@@ -28,15 +42,8 @@ Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
 ![acc map stn](figures/stn_28x28_accuracy_map.png)  |  ![acc map what](figures/what_map.png)
 
 
-## 28x28 Noisy MNIST without a shift (i_offset ==0  && j_offset == 0)
-
-> A few examples from the dataset:
-
-![28x28 noisy no shift](figures/data_28x28_noisy_no_shift_.png)
-
-> After transformation with a STN:
-
-![stn results 28x28 noisy no shift](figures/stn_28x28_noisy_no_shift.png)
+> A test on a noisy dataset with a shift standard deviation = 7
+![results](figures/results_trained.png) 
 
 # Papers
 
