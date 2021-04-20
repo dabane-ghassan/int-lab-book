@@ -51,7 +51,7 @@ class SpatialTransformer(nn.Module):
         # Initialize the weights/bias with identity transformation
         self.fc_loc[2].weight.data.zero_()
         self.fc_loc[2].bias.data.copy_(torch.tensor([1, 0, 0, 0, 1, 0],
-                                                    dtype=torch.float))
+                                                   dtype=torch.float))
 
     def stn(self: object, x: torch.Tensor) -> torch.Tensor:
         """The Spatial Transformer module's forward function, pass through
