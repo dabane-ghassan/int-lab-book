@@ -43,6 +43,7 @@ Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
 
 
 > A test on a noisy dataset with a shift standard deviation = 7
+
 ![results](figures/results_trained.png) 
 
 # Papers
