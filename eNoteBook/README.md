@@ -5,7 +5,7 @@
 - My personal lab-notebook for my internship at the Institut de Neurosciences de la Timone [(INT, Marseille, France)](http://www.int.univ-amu.fr/).
 
 # Tasks
-## **Week 1** - *5th to 12th April, 2021*
+## **Week 1** - *5th till 11th of April, 2021*
 
 - [x] Setting up a notebook repo on github. 
 - [x] Knocking down a few pages from Andriy Burkov's Hundred page machine learning book. 
@@ -39,7 +39,7 @@
 - [x] Reproduce the classification accuracy map with the same range as the what network.
 
 
-## **Week 2** - *12th to 19th April, 2021*
+## **Week 2** - *12th till 18th of April, 2021*
 
 - [x] Factorizing Spatial Transformer Module and Documentation.
 
@@ -75,7 +75,7 @@
 - [x] Recalculate the accuracy map.
 
 
-## **Week 3** - *19th to 26th April, 2021*
+## **Week 3** - *19th till 25th of April, 2021*
 
 - [x] Reading the paper about NLP transformers on images<sup>3</sup>
 - [x] Third BraiNets team meeting.
@@ -86,7 +86,14 @@
 - [ ] Modifying the CNN architecture of the Localization network (in the STN) to take into account the noisy 128x128 input.🚩
   - [ ] Replacing LeNet with a more elaborate network (maybe try CIFAR as an intermediate step)
 
-# Ideas
+- Thinking about refactoring all the code in separate scripts.
 
-- Try to feed the STN the log polar input.
-- Semi-supervised approach
+## **Week 4** - *26th of April till 2nd of May, 2021*
+## **Week 5** - *3rd till 9th of May, 2021*
+## **Week 6** - *10th till 16th of May, 2021*
+## **Week 7** - *17th till 23rd of May, 2021*
+## **Week 8** - *24th till 30th of May, 2021*
+
+
+
+
