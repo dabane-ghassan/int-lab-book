@@ -80,8 +80,9 @@
 - [x] Reading the paper about NLP transformers on images<sup>3</sup>
 - [x] Third BraiNets team meeting.
 - [x] Tried taking out bias terms in the spatial transformer to see if Adam works. **Adam still can't work**
-- [ ] Replacing the results with SGD results that are better.
-- [ ] Cleaning the repository a little bit.
+- [x] Replacing the results with SGD results (way better, yay!).
+- [x] Cleaning the repository a little bit.
+- [x] Adding a new repository to store some old notebooks and figures that are not used.
 - [ ] Modifying the CNN architecture of the Localization network (in the STN) to take into account the noisy 128x128 input.🚩
   - [ ] Replacing LeNet with a more elaborate network (maybe try CIFAR as an intermediate step)
 
