@@ -77,12 +77,11 @@
 
 ## **Week 3** - *19th to 26th April, 2021*
 
-- [ ] Reading the paper about NLP transformers on images<sup>3</sup>
+- [x] Reading the paper about NLP transformers on images<sup>3</sup>
+- [x] Third BraiNets team meeting.
 
 - [ ] Modifying the CNN architecture of the Localization network (in the STN) to take into account the noisy 128x128 input.🚩
   - [ ] Replacing LeNet with a more elaborate network (maybe try CIFAR as an intermediate step)
-
-- [x] Third BraiNets team meeting.
 
 # Ideas
 
