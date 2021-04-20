@@ -86,7 +86,7 @@
 - [ ] Modifying the CNN architecture of the Localization network (in the STN) to take into account the noisy 128x128 input.🚩
   - [ ] Replacing LeNet with a more elaborate network (maybe try CIFAR as an intermediate step)
 
-- Thinking about refactoring all the code in separate scripts.
+- [ ] Thinking about refactoring all the code in separate scripts.
 
 ## **Week 4** - *26th of April till 2nd of May, 2021*
 ## **Week 5** - *3rd till 9th of May, 2021*
