@@ -53,6 +53,9 @@ Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
 
 ![128x128 noisy shift dataset](figures/data_128x128_noisy_no_shift_.png)
 
+> Some preliminary results with a new architechture and trained on 10 epochs only
+
+![transformed 128x128](figures/preliminary_128x128.png)
 
 # Papers
 
