@@ -85,7 +85,7 @@
 - [x] Adding a new repository to store some old notebooks and figures that are not used.
 
 - [ ] Modifying the CNN architecture of the Localization network (in the STN) to take into account the noisy 128x128 input.🚩
-  - [x] Tried adding 2 conv layers to the what network and 1 conv layer to the localization network, **Training is hard**.
+  - [x] Tried adding 2 conv layers to the what network and 1 conv layer to the localization network, **Training is hard, but seems to work!!!!**.
 
 - [ ] Thinking about refactoring all the code in separate scripts.
   - [x] Factored view_dataset() in a function in utils.py
