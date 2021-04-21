@@ -57,6 +57,7 @@ Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
 
 ![transformed 128x128](figures/preliminary_128x128.png)
 
+> Central accuracy = **98%**
 # Papers
 
 [*[1] Emmanuel Daucé, Pierre Albiges, Laurent U. Perrinet; A dual foveal-peripheral visual processing model implements efficient saccade selection. Journal of Vision 2020;20(8):22.*](https://jov.arvojournals.org/article.aspx?articleid=2770680)
