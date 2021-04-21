@@ -83,7 +83,7 @@
 - [x] Replacing the results with SGD results (way better, yay!).
 - [x] Cleaning the repository a little bit.
 - [x] Adding a new repository to store some old notebooks and figures that are not used.
-
+- [x] Understanding how tensors change with convulutions and max pooling (on paper).
 - [ ] Modifying the CNN architecture of the Localization network (in the STN) to take into account the noisy 128x128 input.🚩
   - [ ] Replacing LeNet with a more elaborate network (maybe try CIFAR as an intermediate step)
 
