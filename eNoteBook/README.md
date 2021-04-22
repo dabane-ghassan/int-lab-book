@@ -84,8 +84,9 @@
 - [x] Cleaning the repository a little bit.
 - [x] Adding a new repository to store some old notebooks and figures that are not used.
 - [x] Understanding how tensors change with convulutions and max pooling (on paper).
-- [ ] Modifying the CNN architecture of the Localization network (in the STN) to take into account the noisy 128x128 input.🚩
+- [x] Modifying the CNN architecture of the Localization network (in the STN) to take into account the noisy 128x128 input.🚩
   - [x] Tried adding 2 conv layers to the what network and 1 conv layer to the localization network, **Training is hard, but seems to work!!!!**.
+- [x] Trained the new architecture for 25 epochs without a shift, **It takes 2-3 hours, worked, 98% accuracy achieved**.
 
 - [ ] Thinking about refactoring all the code in separate scripts.
   - [x] Factored view_dataset() in a function in utils.py
