@@ -16,7 +16,7 @@
   - [x] Finish up a [presentation](https://youtu.be/6NOQC_fl1hQ). 
   - [x] Reading The PyTorch tutorial [here](https://pytorch.org/tutorials/intermediate/spatial_transformer_tutorial.html). 
 
-- [x] Meeting with the supervisor,**wednesday april 7th, 10:00**. 
+- [x] Meeting with the supervisor,**Wednesday april 7th, 10:00**. 
 - [x] Checking the source code of the What/Where network [repo](https://github.com/laurentperrinet/WhereIsMyMNIST). 
 - [x] Checking some Pytorch tutorials. 
   - [x] Official Tutorial [here](https://pytorch.org/tutorials/beginner/basics/intro.html) 
@@ -33,7 +33,7 @@
 - [x] Starting the Deep learning with Pytorch book to get a better grip of what's happening.
 
 - [x] Integrated LeNet Network with the Spatial Transformer and Test on a 28x28 Noisy MNIST with eccentricity of 2.
-- [x] A second meeting with M. Daucé and M. Perrinet, **friday, 10:15**.
+- [x] A second meeting with M. Daucé and M. Perrinet, **Friday, 10:15**.
 - [x] First BraiNets team meeting
 - [x] Train the STN on a shift dependant dataset like the generic what pathway in the article.
 - [x] Reproduce the classification accuracy map with the same range as the what network.
@@ -58,7 +58,7 @@
   - [x] Tried changing the loss function, **failed**.
   - [x] Tried changing the optimizer, **worked**.
 
-- [x] Meeting with the head of Polytech computer science engineering school, **wednesday, 18:00**
+- [x] Meeting with the head of Polytech computer science engineering school, **Wednesday, 18:00**
 
 - [x] Investigate Adam Vs. SGD:
   - [x] Check if <img src="https://latex.codecogs.com/gif.latex?\theta"/> is the same for every input while training on Adam. **Same <img src="https://latex.codecogs.com/gif.latex?\bold{\theta}"/>**
@@ -68,10 +68,10 @@
   - [x] When trying to process on an increasing shift std from 0 to 15, we get the same problem even when the learning rate is 1e-3.
   - [x] Maybe just try and go with SGD anyways. 
  
-- [x] Meeting with M. Daucé, **friday, 10:00**
+- [x] Meeting with M. Daucé, **Friday, 10:00**
 - [x] Retrained the 28x28 network with SGD, even a better performance (ofcourse).
-- [x] Presentation about the internship (overview or general approach), **friday, 15:10**
-- [x] A RDV with a professor in M2 Artificial intelligence study path, **friday, 13:00**
+- [x] Presentation about the internship (overview or general approach), **Friday, 15:10**
+- [x] A RDV with a professor in M2 Artificial intelligence study path, **Friday, 13:00**
 - [x] Recalculate the accuracy map.
 
 
@@ -96,6 +96,7 @@ Modified transformer |  Modified What
 - [x] Went back to the old repository to explore what is eccentricity and different parameters of contrast chosen for figure 4.
 - [ ] Thinking about refactoring all the code in separate scripts.
   - [x] Factored view_dataset() in a function in utils.py
+- [ ] Meeting with M. Daucé, **Thursday, 14:00**
 
 ## **Week 4** - *26th of April till 2nd of May, 2021*
 ## **Week 5** - *3rd till 9th of May, 2021*
