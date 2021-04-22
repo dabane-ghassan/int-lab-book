@@ -86,7 +86,7 @@
 - [x] Understanding how tensors change with convulutions and max pooling (on paper).
 - [x] Modifying the CNN architecture of the Localization network (in the STN) to take into account the noisy 128x128 input.🚩
   - [x] Tried adding 2 conv layers to the what network and 1 conv layer to the localization network, **Training is hard, but seems to work!!!!**.
-  > The new architechture (to be verified by M. Daucé)
+  > The new architecture (to be verified by M. Daucé)
  
 Modified transformer |  Modified What
 :-----------------------:|:--------------:
