@@ -94,9 +94,12 @@ Modified transformer |  Modified What
 
 - [x] Trained the new architecture for 25 epochs without a shift, **It takes 2-3 hours, worked, 98% accuracy achieved**.
 - [x] Went back to the old repository to explore what is eccentricity and different parameters of contrast chosen for figure 4.
+- [x] Meeting with M. Daucé, **Thursday, 14:00**
+
+- [ ] Trying to take out one fully connected layers in the Spatial Transformer and see how it performs.
+- [ ] Same training scheme as the 28x28, increasing eccentricity.
 - [ ] Thinking about refactoring all the code in separate scripts.
   - [x] Factored view_dataset() in a function in utils.py
-- [ ] Meeting with M. Daucé, **Thursday, 14:00**
 
 ## **Week 4** - *26th of April till 2nd of May, 2021*
 ## **Week 5** - *3rd till 9th of May, 2021*
