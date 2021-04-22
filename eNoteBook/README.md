@@ -88,9 +88,9 @@
   - [x] Tried adding 2 conv layers to the what network and 1 conv layer to the localization network, **Training is hard, but seems to work!!!!**.
   > The new architechture (to be verified by M. Daucé)
  
-    Modified transformer |  Modified What
+Modified transformer |  Modified What
 :-----------------------:|:--------------:
-<img src="trans.jpg" width="200" height="200">|<img src="what.jpg" width="200" height="200">
+<img src="trans.jpg" width="300" height="900">|<img src="what.jpg" width="300" height="900">
 
 - [x] Trained the new architecture for 25 epochs without a shift, **It takes 2-3 hours, worked, 98% accuracy achieved**.
 - [x] Went back to the old repository to explore what is eccentricity and different parameters of contrast chosen for figure 4.
