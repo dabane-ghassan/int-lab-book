@@ -99,6 +99,11 @@ Modified transformer |  Modified What
 - [x] Trying to take out one fully connected layers in the Spatial Transformer and see how it performs, **Works**
 - [ ] Same training scheme as the 28x28, increasing eccentricity.
     - [x] Trained on eccentricity 0 (radius=0).
+- [ ] **PROBLEM WITH THE ARCHITECHTURE**, accuracy increases then drops at final epochs.
+    - [x] Tried training with Adam, **not working**.
+    - [x] Tried to add kernels in the localization network, **not working**.
+    - [x] Tried with a different learning rate, **not working**.
+    - [ ] Overfitting?, maybe add a dropout layer... 
 
 - [ ] Thinking about refactoring all the code in separate scripts.
   - [x] Factored view_dataset() in a function in utils.py
