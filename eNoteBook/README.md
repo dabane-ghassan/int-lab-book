@@ -103,7 +103,7 @@ Modified transformer |  Modified What
     - [x] Tried training with Adam, **not working**.
     - [x] Tried to add kernels in the localization network, **not working**.
     - [x] Tried with a different learning rate, **not working**.
-    - [ ] Overfitting?, maybe add a dropout layer... 
+    - [x] Overfitting?, maybe add a dropout layer..., **Seems to work this time but maybe due to chance, thetas are the same like with Adam**. 
 
 - [ ] Thinking about refactoring all the code in separate scripts.
   - [x] Factored view_dataset() in a function in utils.py
