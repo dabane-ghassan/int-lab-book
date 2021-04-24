@@ -104,7 +104,7 @@ Modified transformer |  Modified What
     - [x] Tried to add kernels in the localization network, **not working**.
     - [x] Tried with a different learning rate, **not working**.
     - [x] Overfitting?, maybe add a dropout layer..., **Seems to work this time but maybe due to chance, thetas are the same like with Adam**. 
-- [ ] Reread the original paper to investigate the structure.
+- [x] Reread the original paper to investigate the structure.
 
 - [ ] Thinking about refactoring all the code in separate scripts.
   - [x] Factored view_dataset() in a function in utils.py
