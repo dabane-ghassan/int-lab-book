@@ -99,13 +99,14 @@ Modified transformer |  Modified What
 - [x] Trying to take out one fully connected layers in the Spatial Transformer and see how it performs, **Works**
 - [ ] Same training scheme as the 28x28, increasing eccentricity.
     - [x] Trained on eccentricity 0 (radius=0).
-- [ ] **PROBLEM WITH THE ARCHITECHTURE**, accuracy increases then drops at final epochs.
+- [x] **PROBLEM WITH THE ARCHITECHTURE**, accuracy increases then drops at final epochs.
     - [x] Tried training with Adam, **not working**.
     - [x] Tried to add kernels in the localization network, **not working**.
     - [x] Tried with a different learning rate, **not working**.
     - [x] Overfitting?, maybe add a dropout layer..., **Seems to work this time but maybe due to chance, thetas are the same like with Adam**. 
     - [x] Implemented the TC architechture from the paper 🤞
     - [x] Training directly on the translated dataset, **fail**. 
+ 
 - [x] Reread the original paper to investigate the structure.
 
 - [ ] Thinking about refactoring all the code in separate scripts.
