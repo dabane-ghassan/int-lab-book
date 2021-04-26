@@ -97,8 +97,7 @@ Modified transformer |  Modified What
 - [x] Meeting with M. Daucé, **Thursday, 14:00**
 
 - [x] Trying to take out one fully connected layers in the Spatial Transformer and see how it performs, **Works**
-- [ ] Same training scheme as the 28x28, increasing eccentricity.
-    - [x] Trained on eccentricity 0 (radius=0).
+
 - [x] **PROBLEM WITH THE ARCHITECHTURE**, accuracy increases then drops at final epochs.
     - [x] Tried training with Adam, **not working**.
     - [x] Tried to add kernels in the localization network, **not working**.
@@ -109,14 +108,18 @@ Modified transformer |  Modified What
  
 - [x] Reread the original paper to investigate the structure.
 
+- [x] Factored view_dataset() in a function in utils.py
+ 
+
+## **Week 4** - *26th of April till 2nd of May, 2021*
+
+- [ ] Same training scheme as the 28x28, increasing eccentricity.
+    - [x] Trained on eccentricity 0 (radius=0).
+    - [x] Trained on all eccentricities, **problem, accuracy drops sharply and nothing works**.
 - [ ] Thinking about refactoring all the code in separate scripts.
-  - [x] Factored view_dataset() in a function in utils.py
-  
 - [ ] Start preparing slides for BraiNets meeting
 - [ ] Start preparing slides for 2nd presentation checkup at Luminy for M. Gonzalez
 
-
-## **Week 4** - *26th of April till 2nd of May, 2021*
 ## **Week 5** - *3rd till 9th of May, 2021*
 ## **Week 6** - *10th till 16th of May, 2021*
 ## **Week 7** - *17th till 23rd of May, 2021*
