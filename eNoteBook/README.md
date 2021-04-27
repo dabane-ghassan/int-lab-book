@@ -96,15 +96,7 @@ Modified transformer |  Modified What
 - [x] Went back to the old repository to explore what is eccentricity and different parameters of contrast chosen for figure 4.
 - [x] Meeting with M. Daucé, **Thursday, 14:00**
 
-- [x] Trying to take out one fully connected layers in the Spatial Transformer and see how it performs, **Works**
-
-- [x] **PROBLEM WITH THE ARCHITECHTURE**, accuracy increases then drops at final epochs.
-    - [x] Tried training with Adam, **not working**.
-    - [x] Tried to add kernels in the localization network, **not working**.
-    - [x] Tried with a different learning rate, **not working**.
-    - [x] Overfitting?, maybe add a dropout layer..., **Seems to work this time but maybe due to chance, thetas are the same like with Adam**. 
-    - [x] Implemented the TC architechture from the paper 🤞
-    - [x] Training directly on the translated dataset, **fail**. 
+- [x] Trying to take out one fully connected layers in the Spatial Transformer and see how it performs, **Works** 
  
 - [x] Reread the original paper to investigate the structure.
 
@@ -113,9 +105,18 @@ Modified transformer |  Modified What
 
 ## **Week 4** - *26th of April till 2nd of May, 2021*
 
+- [x] **PROBLEM WITH THE ARCHITECHTURE**, accuracy increases then drops at final epochs.
+    - [x] Tried training with Adam, **not working**.
+    - [x] Tried to add kernels in the localization network, **not working**.
+    - [x] Tried with a different learning rate, **not working**.
+    - [x] Overfitting?, maybe add a dropout layer..., **Seems to work this time but maybe due to chance, thetas are the same like with Adam**. 
+    - [x] Implemented the TC architechture from the paper 🤞
+    - [x] Training directly on the translated dataset, **fail**.
+
 - [x] Same training scheme as the 28x28, increasing eccentricity.
     - [x] Trained on eccentricity 0 (radius=0).
     - [x] Trained on all eccentricities, **problem, accuracy drops sharply and nothing works**.
+
 - [x] Persisting problem with the architechture, **tried varying everything**.
 - [ ] Thinking about refactoring all the code in separate scripts.
 - [ ] Start preparing slides for BraiNets meeting
