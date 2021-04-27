@@ -113,9 +113,10 @@ Modified transformer |  Modified What
 
 ## **Week 4** - *26th of April till 2nd of May, 2021*
 
-- [ ] Same training scheme as the 28x28, increasing eccentricity.
+- [x] Same training scheme as the 28x28, increasing eccentricity.
     - [x] Trained on eccentricity 0 (radius=0).
     - [x] Trained on all eccentricities, **problem, accuracy drops sharply and nothing works**.
+- [x] Persisting problem with the architechture, **tried varying everything**.
 - [ ] Thinking about refactoring all the code in separate scripts.
 - [ ] Start preparing slides for BraiNets meeting
 - [ ] Start preparing slides for 2nd presentation checkup at Luminy for M. Gonzalez
