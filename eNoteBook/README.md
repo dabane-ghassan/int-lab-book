@@ -119,6 +119,7 @@ Modified transformer |  Modified What
 - [x] Took out a linear layer and modified kernels.
 - [x] Trained on 20 epochs with SGD 0.1, 96% accuracy but still the same theta.
 - [x] Added foveated convolution layer class. 
+- [x] same theta while training on higher radius, doesn't really crops, only classifies,**rethink strategy**. 
 
 - [ ] Thinking about refactoring all the code in separate scripts.
 - [ ] Start preparing slides for BraiNets meeting
