@@ -120,7 +120,7 @@ Modified transformer |  Modified What
 - [x] Trained on 20 epochs with SGD 0.1, 96% accuracy but still the same theta.
 - [x] Added foveated convolution layer class. 
 - [x] same theta while training on higher radius, doesn't really crops, only classifies,**rethink strategy**. 
-
+- [x] Taken out 2 conv layers from the classification net, same performance on adam, but still adam never transforms.
 - [ ] Thinking about refactoring all the code in separate scripts.
 - [ ] Start preparing slides for BraiNets meeting
 - [ ] Start preparing slides for 2nd presentation checkup at Luminy for M. Gonzalez
