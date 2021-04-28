@@ -122,7 +122,8 @@ Modified transformer |  Modified What
 - [x] same theta while training on higher radius, doesn't really crops, only classifies,**rethink strategy**. 
 - [x] Taken out 2 conv layers from the classification net, same performance on adam, but still adam never transforms.
 - [x] **After taking out the 2 conv layers from the classification net, and training on sgd with 0.1 for 20 epochs on the eccentricity 4.44444, this time it seems to work, different thetas for different inputs, finally**
-- [ ] Training the new network on all eccentricities.
+- [x] Training the new network on all eccentricities, **seems to work, have to retrain on everything, FINALLY**.
+- [x] A default in Spatial Trans Nets, must think about FoveaNet.
 - [ ] Thinking about refactoring all the code in separate scripts.
 - [ ] Start preparing slides for BraiNets meeting
 - [ ] Start preparing slides for 2nd presentation checkup at Luminy for M. Gonzalez
