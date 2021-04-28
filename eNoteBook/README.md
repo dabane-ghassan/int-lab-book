@@ -112,12 +112,14 @@ Modified transformer |  Modified What
     - [x] Overfitting?, maybe add a dropout layer..., **Seems to work this time but maybe due to chance, thetas are the same like with Adam**. 
     - [x] Implemented the TC architechture from the paper 🤞
     - [x] Training directly on the translated dataset, **fail**.
-
+- [x] Persisting problem with the architechture, **tried varying everything**.
 - [x] Same training scheme as the 28x28, increasing eccentricity.
     - [x] Trained on eccentricity 0 (radius=0).
     - [x] Trained on all eccentricities, **problem, accuracy drops sharply and nothing works**.
+- [x] Took out a linear layer and modified kernels.
+- [x] Trained on 20 epochs with SGD 0.1, 96% accuracy but still the same theta.
+- [x] Added foveated convolution layer class. 
 
-- [x] Persisting problem with the architechture, **tried varying everything**.
 - [ ] Thinking about refactoring all the code in separate scripts.
 - [ ] Start preparing slides for BraiNets meeting
 - [ ] Start preparing slides for 2nd presentation checkup at Luminy for M. Gonzalez
