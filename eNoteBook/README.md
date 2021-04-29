@@ -124,7 +124,8 @@ Modified transformer |  Modified What
 - [x] **After taking out the 2 conv layers from the classification net, and training on sgd with 0.1 for 20 epochs on the eccentricity 4.44444, this time it seems to work, different thetas for different inputs, finally**
 - [x] Training the new network on all eccentricities, **seems to work, have to retrain on everything, FINALLY**.
 - [x] Trained on 8 eccentricities between 4 and 40,5 epochs each, overfitting or converging to the same theta.
-- [x] Training on less eccentricites to see what happens. maybe 4 eccentricites, 10,20,30,40 and 3 epochs each.   
+- [x] Training on less eccentricites to see what happens. maybe 4 eccentricites, 10,20,30,40 and 3 epochs each.  
+- [x] Trained on all eccentricites like the paper, SGD with 0.001, works like the charm, but another problem surfaced, **the model is biased towards 40 pixel eccentricity**.
 - [x] A default in Spatial Trans Nets, must think about FoveaNet.
 - [ ] Thinking about refactoring all the code in separate scripts.
 - [ ] Start preparing slides for BraiNets meeting
