@@ -124,18 +124,31 @@ Modified transformer |  Modified What
 - [x] **After taking out the 2 conv layers from the classification net, and training on sgd with 0.1 for 20 epochs on the eccentricity 4.44444, this time it seems to work, different thetas for different inputs, finally**
 - [x] Training the new network on all eccentricities, **seems to work, have to retrain on everything, FINALLY**.
 - [x] Trained on 8 eccentricities between 4 and 40,5 epochs each, overfitting or converging to the same theta.
-- [x] Training on less eccentricites to see what happens. maybe 4 eccentricites, 10,20,30,40 and 3 epochs each.  
+- [x] Training on less eccentricites to see what happens. maybe 4 eccentricites, 10,20,30,40 and 3 epochs each.
 - [x] Trained on all eccentricites like the paper, SGD with 0.001, works like the charm, but another problem surfaced, **the model is biased towards 40 pixel eccentricity**.
 - [x] A default in Spatial Trans Nets, must think about FoveaNet.
-- [ ] Use std parameter instead of radius.
+- [x] Use std parameter instead of radius.
 - [ ] Retrain with sgd with a learning rate scheduler.
+    - [x] Trained on first 3 eccentricities 10 epochs each, **Works like a charm**.
+    - [x] Verified the transformations and the accuracies of all first 3 and saved the model. 
+    - [x] Trained on second 3 eccentricites with a learning rate divided by 10.
+    - [x] Verified the transformations and the accuracies of the second 3 and saved the model. 
+    - [ ] Trained on last 3 eccentricites with a learning rate divided by 100.
+    - [ ] Verified the transformations and the accuracies of the last 3 eccentricites and saved the final model.
+
+- [ ] Training on lesser contrasts.
 - [ ] Add an interpolate to mimic the fovea.
 - [ ] Try FoveaNet to see if it's interesting.
 - [ ] Thinking about refactoring all the code in separate scripts.
 - [ ] Start preparing slides for BraiNets meeting
-- [ ] Start preparing slides for 2nd presentation checkup at Luminy for M. Gonzalez
 
 ## **Week 5** - *3rd till 9th of May, 2021*
+
+- [ ] Meeting with M. Daucé at the lab.
+- [ ] Start preparing slides for 2nd presentation checkup at Luminy with M. Gonzalez
+- [ ] Lab report.
+- [ ] Final internship defense presentation.
+
 ## **Week 6** - *10th till 16th of May, 2021*
 ## **Week 7** - *17th till 23rd of May, 2021*
 ## **Week 8** - *24th till 30th of May, 2021*
