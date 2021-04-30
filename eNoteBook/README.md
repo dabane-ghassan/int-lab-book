@@ -128,13 +128,13 @@ Modified transformer |  Modified What
 - [x] Trained on all eccentricites like the paper, SGD with 0.001, works like the charm, but another problem surfaced, **the model is biased towards 40 pixel eccentricity**.
 - [x] A default in Spatial Trans Nets, must think about FoveaNet.
 - [x] Use std parameter instead of radius.
-- [ ] Retrain with sgd with a learning rate scheduler.
+- [x] Retrain with sgd with a learning rate scheduler. **EVERYTHING SEEMS WONDERFUL**
     - [x] Trained on first 3 eccentricities 10 epochs each, **Works like a charm**.
     - [x] Verified the transformations and the accuracies of all first 3 and saved the model. 
     - [x] Trained on second 3 eccentricites with a learning rate divided by 10.
     - [x] Verified the transformations and the accuracies of the second 3 and saved the model. 
-    - [ ] Trained on last 3 eccentricites with a learning rate divided by 100.
-    - [ ] Verified the transformations and the accuracies of the last 3 eccentricites and saved the final model.
+    - [x] Trained on last 3 eccentricites with a learning rate divided by 100.
+    - [x] Verified the transformations and the accuracies of the last 3 eccentricites and saved the final model.
 
 - [ ] Training on lesser contrasts.
 - [ ] Add an interpolate to mimic the fovea.
