@@ -53,12 +53,15 @@ Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
 
 ![128x128 noisy shift dataset](figures/data_128x128_noisy_no_shift_.png)
 
-> Some preliminary results with a new architechture that has been trained for **25** epochs on the dataset **without a shift** (the digit is always centered)
+> Training for 90 epochs with a learning rate decay every 30 epochs, each 10 epochs increase the standard deviation of the eccentricity.
+
+> After transformation with a STN:
 
 ![transformed 128x128](figures/preliminary_128x128.png)
 
-> Central accuracy = **98%**
-# Papers
+> Accuracy ~ **97-98%** over all eccentricities.
+
+# References
 
 [*[1] Emmanuel Daucé, Pierre Albiges, Laurent U. Perrinet; A dual foveal-peripheral visual processing model implements efficient saccade selection. Journal of Vision 2020;20(8):22.*](https://jov.arvojournals.org/article.aspx?articleid=2770680)
 
