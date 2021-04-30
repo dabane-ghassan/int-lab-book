@@ -56,6 +56,7 @@ Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
 > Training for 90 epochs with a learning rate decay every 30 epochs, each 10 epochs increase the standard deviation of the eccentricity.
 
 > After transformation with a STN:
+
 ![transformed 128x128](figures/preliminary_128x128.png)
 
 > Accuracy ~ **97-98%** over all eccentricities.
