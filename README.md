@@ -55,11 +55,12 @@ Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
 
 > Training for 90 epochs with a learning rate decay every 30 epochs, each 10 epochs increase the standard deviation of the eccentricity.
 
+> After transformation with a STN:
 ![transformed 128x128](figures/preliminary_128x128.png)
 
 > Accuracy ~ **97-98%** over all eccentricities.
 
-# Papers
+# References
 
 [*[1] Emmanuel Daucé, Pierre Albiges, Laurent U. Perrinet; A dual foveal-peripheral visual processing model implements efficient saccade selection. Journal of Vision 2020;20(8):22.*](https://jov.arvojournals.org/article.aspx?articleid=2770680)
 
