@@ -1,14 +1,16 @@
-# INT M1 Internship
+# Spatial Trans Nets
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/for-robots.svg)](https://forthebadge.com)
 
+# Projet
+- Master's 1 internship, hosted within the Institut de Neurosciences de la Timone, INT.
 - Supervised by [Emmanuel Daucé](http://emmanuel.dauce.free.fr/) (MC, Ecole Centrale Marseille).
 - Description of my internship project:
 
 > In contrast with computer vision, biological vision is characterized by an anisotropic sensor (**The Retina**) as well as the ability to **move** the eyesight to   different locations in the visual scene through ocular **saccades**. To better understand how the human eye analyzes visual scenes, a bio-inspired artificial  vision  model was recently suggested by ***Daucé et al (2020) <sup>1</sup>***.The goal of this master’s internship would be to compare the results obtained by Daucé et   al with some of the more classical attentional computer vision models like the ***Spatial transformer network <sup>2</sup>*** where the visual input undergoes a foveal   deformation.
 
-# Progress
+# Results
 
 ## The Generic Spatial Transformer Network Vs. The What pathway<sup>1</sup>
 
@@ -16,7 +18,7 @@
 
 > Taking a look at a few examples from the dataset:
 
-![28x28 noisy no shift](figures/data_28x28_noisy_no_shift_.png)
+![28x28 noisy no shift](figures/noisy_no_shift_28x28_data.png)
 
 > After transformation with a STN:
 
@@ -54,6 +56,8 @@ Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
 ![128x128 noisy shift dataset](figures/data_128x128_noisy_no_shift_.png)
 
 > Training for 90 epochs with a learning rate decay every 30 epochs, each 10 epochs increase the standard deviation of the eccentricity.
+
+![training stn 128x128](figures/acc_training_stn_128x128.png)
 
 > After transformation with a STN:
 
