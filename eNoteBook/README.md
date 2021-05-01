@@ -84,7 +84,7 @@
 - [x] Cleaning the repository a little bit.
 - [x] Adding a new repository to store some old notebooks and figures that are not used.
 - [x] Understanding how tensors change with convulutions and max pooling (on paper).
-- [x] Modifying the CNN architecture of the Localization network (in the STN) to take into account the noisy 128x128 input.🚩
+- [x] Modifying the CNN architecture of the Localization network (in the STN) to take into account the noisy 128x128 input.
   - [x] Tried adding 2 conv layers to the what network and 1 conv layer to the localization network, **Training is hard, but seems to work!!!!**.
   > The new architecture (to be verified by M. Daucé)
  
@@ -137,12 +137,12 @@ Modified transformer |  Modified What
     - [x] Verified the transformations and the accuracies of the last 3 eccentricites and saved the final model.
 - [x] Refactored the Spatial Net of the 128x128 dataset.
 
-- [ ] Training on lesser contrasts.
-- [ ] Add an interpolate to mimic the fovea.
+- [x] Training on lesser contrasts, **seems to work with only 10 epochs each, and on the 40 std shift**.
+- [x] Add an interpolate to mimic the fovea, **interpolation works when on visualizing**.
 - [ ] Try FoveaNet to see if it's interesting.
-- [ ] Start preparing slides for BraiNets meeting
+- [ ] Start preparing slides for BraiNets meeting.
 
-## **Week 5** - *3rd till 9th of May, 2021*
+## **Week 5** - *3rd till 9th of May, 2021* 🚩
 
 - [ ] Meeting with M. Daucé at the lab.
 - [ ] Start preparing slides for 2nd presentation checkup at Luminy with M. Gonzalez
