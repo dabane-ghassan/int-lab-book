@@ -11,7 +11,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 class SpatialTransformer(nn.Module):
-    """A spatial transformer plug and play module.
+    """A spatial transformer plug and play module for the 28x28 pixels dataset.
     
     Attributes
     ----------
