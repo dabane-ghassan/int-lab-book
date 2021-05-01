@@ -21,6 +21,7 @@ import SLIP
 from what_where.what import What
 from tqdm import tqdm
 import matplotlib.pyplot as plt
+import random
 
 
 class RetinaFill:
@@ -142,11 +143,12 @@ def MotionCloudNoise(sf_0=0.125, B_sf=3., alpha=.0, N_pic=28, seed=42):
     return z, env
 
 class RetinaBackground:
-    def __init__(self, contrast=1., noise=1., sf_0=.1, B_sf=.1):
+    def __init__(self, contrast=1., noise=1., sf_0=.1, B_sf=.1, flexible=True):
         self.contrast = contrast
         self.noise = noise
         self.sf_0 = sf_0
         self.B_sf = B_sf
+        self.flexible = flexible
 
     def __call__(self, sample):
 
@@ -158,7 +160,10 @@ class RetinaBackground:
         if pixel_fullfield.min() != pixel_fullfield.max():
             fullfield = (pixel_fullfield - pixel_fullfield.min()) / (pixel_fullfield.max() - pixel_fullfield.min())
             fullfield = 2 * fullfield - 1  # go to [-1, 1] range
-            fullfield *= self.contrast
+            if self.flexible:
+                fullfield *= random.uniform(self.contrast, 0.7)
+            else:
+                fullfield *= self.contrast
             fullfield = fullfield / 2 + 0.5 # back to [0, 1] range
         else:
             fullfield = np.zeros((N_pic, N_pic))
