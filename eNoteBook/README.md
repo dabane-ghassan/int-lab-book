@@ -135,11 +135,11 @@ Modified transformer |  Modified What
     - [x] Verified the transformations and the accuracies of the second 3 and saved the model. 
     - [x] Trained on last 3 eccentricites with a learning rate divided by 100.
     - [x] Verified the transformations and the accuracies of the last 3 eccentricites and saved the final model.
+- [x] Refactored the Spatial Net of the 128x128 dataset.
 
 - [ ] Training on lesser contrasts.
 - [ ] Add an interpolate to mimic the fovea.
 - [ ] Try FoveaNet to see if it's interesting.
-- [ ] Thinking about refactoring all the code in separate scripts.
 - [ ] Start preparing slides for BraiNets meeting
 
 ## **Week 5** - *3rd till 9th of May, 2021*
