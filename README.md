@@ -63,7 +63,13 @@ Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
 
 ![transformed 128x128](figures/preliminary_128x128.png)
 
-> Accuracy ~ **97-98%** over all eccentricities.
+> Performance when the contrast varies between 30-70% and the digit is shifted by 40 pixels (the maximum amount):
+
+![contrast 128x128](figures/contrast_128x128.png)
+
+> Accuracy comparison with the What/Where model, in function of contrast and eccentricity of the digit on the screen.
+
+*Coming soon*
 
 # References
 
