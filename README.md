@@ -69,7 +69,7 @@ Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
 
 > Accuracy comparison with the What/Where model, in function of contrast and eccentricity of the digit on the screen.
 
-*Coming soon*
+![benchmarks](figures/benchmark_stn_whatwhere.png)
 
 # References
 
