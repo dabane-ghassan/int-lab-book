@@ -145,7 +145,7 @@ Modified transformer |  Modified What
 - [x] Fixed the problem with the benchmark empty plot.
 - [x] Replaced all figures with the new cool julia-like plotting style.
 - [x] Verify with M. Daucé that the training scheme for the 128x128 is good on all contrasts.
-  - [x] Retrain with variable contrast on all epochs fromt the beginning to see if it's better.
+  - [x] Retrain with variable contrast on all epochs from the beginning to see if it's better.
 
 - [ ] Try FoveaNet to see if it's interesting.
 - [x] Start preparing slides for BraiNets meeting.
@@ -155,6 +155,9 @@ Modified transformer |  Modified What
 - [ ] Final internship defense presentation.
 
 ## **Week 6** - *10th till 16th of May, 2021*
+
+- Meeting with M. Daucé and M. Perrinet, **Tuesday, 14h00**
+
 ## **Week 7** - *17th till 23rd of May, 2021*
 ## **Week 8** - *24th till 30th of May, 2021*
 
