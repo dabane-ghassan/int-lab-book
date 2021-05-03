@@ -1,4 +1,5 @@
-# WHAT YOU SEE IS WHAT YOU TRANSFORM: exploring Spatial Transformer Networks for Bio-inspired computer vision  
+![cover](https://user-images.githubusercontent.com/69251989/116857061-76501480-abfc-11eb-8025-b1a4626d5d7a.png)
+
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/for-robots.svg)](https://forthebadge.com)
