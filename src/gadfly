@@ -213,7 +213,7 @@ boxplot.meanprops.linewidth       : 1.0
 ## text properties used by text.Text.  See
 ## http://matplotlib.org/api/artist_api.html#module-matplotlib.text for more
 ## information on text properties
-text.color          : 707074
+text.color          : 000000
 
 #### LaTeX customizations. See http://wiki.scipy.org/Cookbook/Matplotlib/UsingTex
 #text.usetex         : False  ## use latex for all text handling. The following fonts
@@ -292,7 +292,7 @@ axes.titlesize      : 18   ## fontsize of the axes title
 axes.labelsize      : 14  ## fontsize of the x any y labels
 #axes.labelpad       : 4.0     ## space between label and axis
 #axes.labelweight    : normal  ## weight of the x and y labels
-axes.labelcolor     : 707074
+axes.labelcolor     : 1a1a1a
 #axes.axisbelow      : line    ## draw axis gridlines and ticks below
                                ## patches (True); above patches but below
                                ## lines ('line'); or above all (False)
@@ -364,7 +364,7 @@ axes.prop_cycle    : cycler('color', ['00BEFF', 'D4CA3A', 'FF6DAE', '67E1B5', 'E
 #xtick.minor.width    : 0.6    ## minor tick width in points
 #xtick.major.pad      : 3.5    ## distance to major tick label in points
 #xtick.minor.pad      : 3.4    ## distance to the minor tick label in points
-xtick.color          : 707074  ## color of the tick labels
+xtick.color          : 1a1a1a  ## color of the tick labels
 xtick.labelsize      : 12 ## fontsize of the tick labels
 #xtick.direction      : out    ## direction: in, out, or inout
 #xtick.minor.visible  : False  ## visibility of minor ticks on x-axis
@@ -384,7 +384,7 @@ xtick.labelsize      : 12 ## fontsize of the tick labels
 #ytick.minor.width    : 0.6    ## minor tick width in points
 #ytick.major.pad      : 3.5    ## distance to major tick label in points
 #ytick.minor.pad      : 3.4    ## distance to the minor tick label in points
-ytick.color          : 707074  ## color of the tick labels
+ytick.color          : 1a1a1a  ## color of the tick labels
 ytick.labelsize      : 12 ## fontsize of the tick labels
 #ytick.direction      : out    ## direction: in, out, or inout
 #ytick.minor.visible  : False  ## visibility of minor ticks on y-axis
@@ -395,10 +395,10 @@ ytick.labelsize      : 12 ## fontsize of the tick labels
 #ytick.alignment      : center_baseline ## alignment of yticks
 
 #### GRIDS
-grid.color       :   93939c    ## grid color
+grid.color       :   696969    ## grid color
 grid.linestyle   :   --         ## solid
 #grid.linewidth   :   0.8       ## in points
-grid.alpha       :   0.2       ## transparency, between 0.0 and 1.0
+grid.alpha       :   0.6       ## transparency, between 0.0 and 1.0
 
 #### Legend
 #legend.loc           : best
