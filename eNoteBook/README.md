@@ -156,7 +156,9 @@ Modified transformer |  Modified What
 
 ## **Week 6** - *10th till 16th of May, 2021*
 
-- Meeting with M. Daucé and M. Perrinet, **Tuesday, 14h00**
+- [ ] Meeting with M. Daucé and M. Perrinet, **Tuesday, 14h00**.
+- [ ] Projet presentation, **Monday, 14h30**.
+- [ ] Internship checkup presentation, **Friday, 15h50**.
 
 ## **Week 7** - *17th till 23rd of May, 2021*
 ## **Week 8** - *24th till 30th of May, 2021*
