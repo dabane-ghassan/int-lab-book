@@ -144,10 +144,12 @@ Modified transformer |  Modified What
 
 - [x] Fixed the problem with the benchmark empty plot.
 - [x] Replaced all figures with the new cool julia-like plotting style.
-- [ ] Verify with M. Daucé that the training scheme for the 128x128 is good on all contrasts.
+- [x] Verify with M. Daucé that the training scheme for the 128x128 is good on all contrasts.
+  - [x] Retrain with variable contrast on all epochs fromt the beginning to see if it's better.
+
 - [ ] Try FoveaNet to see if it's interesting.
-- [ ] Start preparing slides for BraiNets meeting.
-- [ ] Meeting with M. Daucé at the lab.
+- [x] Start preparing slides for BraiNets meeting.
+- [x] Meeting with M. Daucé at the lab.
 - [ ] Start preparing slides for 2nd presentation checkup at Luminy with M. Gonzalez
 - [ ] Lab report.
 - [ ] Final internship defense presentation.
