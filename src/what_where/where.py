@@ -21,8 +21,6 @@ import SLIP
 from what_where.what import What
 from tqdm import tqdm
 import matplotlib.pyplot as plt
-import random
-
 
 class RetinaFill:
     def __init__(self, N_pic=128, baseline=0):
@@ -161,7 +159,7 @@ class RetinaBackground:
             fullfield = (pixel_fullfield - pixel_fullfield.min()) / (pixel_fullfield.max() - pixel_fullfield.min())
             fullfield = 2 * fullfield - 1  # go to [-1, 1] range
             if self.flexible:
-                fullfield *= random.uniform(self.contrast, 0.7)
+                fullfield *= np.random.uniform(low=self.contrast, high=0.7)
             else:
                 fullfield *= self.contrast
             fullfield = fullfield / 2 + 0.5 # back to [0, 1] range

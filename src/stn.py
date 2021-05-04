@@ -79,7 +79,8 @@ class STN_128x128(nn.Module):
             [1, 0, 0, 0, 1, 0], dtype=torch.float))
 
     def stn(self: object, x: torch.Tensor) -> torch.Tensor:
-        """The Spatial Transformer module's forward function, pass through
+        """
+        The Spatial Transformer module's forward function, pass through
         the localization network, predict transformation parameters theta,
         generate a grid and apply the transformation parameters theta on it
         and finally sample the grid using an interpolation.
@@ -93,14 +94,14 @@ class STN_128x128(nn.Module):
         -------
         x : torch.Tensor
             The output (transformed) tensor.
-
         """
+
         xs = self.localization(x)
         xs = xs.view(-1, 128 * 4 * 4)
         
         theta = self.fc_loc(xs)
         theta = theta.view(-1, 2, 3)
-
+        #grid_size = torch.Size([x.size()[0], x.size()[1], 28, 28])
         grid = F.affine_grid(theta, x.size())
         x = F.grid_sample(x, grid)
 
