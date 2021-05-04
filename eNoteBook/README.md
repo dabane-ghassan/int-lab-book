@@ -145,7 +145,7 @@ Modified transformer |  Modified What
 - [x] Fixed the problem with the benchmark empty plot.
 - [x] Replaced all figures with the new cool julia-like plotting style.
 - [x] Verify with M. Daucé that the training scheme for the 128x128 is good on all contrasts.
-  - [x] Retrain with variable contrast on all epochs from the beginning to see if it's better.
+  - [x] Retrain with variable contrast on all epochs from the beginning to see if it's better, **doesn't work**.
 
 - [ ] Try FoveaNet to see if it's interesting.
 - [x] Start preparing slides for BraiNets meeting.
