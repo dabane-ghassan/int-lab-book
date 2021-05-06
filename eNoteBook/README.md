@@ -147,11 +147,13 @@ Modified transformer |  Modified What
 - [x] Verify with M. Daucé that the training scheme for the 128x128 is good on all contrasts.
   - [x] Retrain with variable contrast on all epochs from the beginning to see if it's better, **doesn't work**.
 
-- Trained the network for 10 more epochs, **a slight improvement**.
+- [ ] Trained the network for 10 more epochs, **a slight improvement**.
+- [ ] Read the two notebooks of bicv to understand log-polar coding.
 - [ ] Try FoveaNet to see if it's interesting.
 - [x] Start preparing slides for BraiNets meeting.
 - [x] Meeting with M. Daucé at the lab.
 - [x] Continue working on slides. 
+- [ ] Finish Slides.
 - [ ] Start preparing slides for 2nd presentation checkup at Luminy with M. Gonzalez
 - [ ] Lab report.
 - [ ] Final internship defense presentation.
@@ -164,7 +166,4 @@ Modified transformer |  Modified What
 
 ## **Week 7** - *17th till 23rd of May, 2021*
 ## **Week 8** - *24th till 30th of May, 2021*
-
-
-
 
