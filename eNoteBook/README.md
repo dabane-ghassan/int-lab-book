@@ -5,6 +5,7 @@
 - My personal lab-notebook for my internship at the Institut de Neurosciences de la Timone [(INT, Marseille, France)](http://www.int.univ-amu.fr/).
 
 # Tasks
+
 ## **Week 1** - *5th till 11th of April, 2021*
 
 - [x] Setting up a notebook repo on github. 
@@ -146,26 +147,28 @@ Modified transformer |  Modified What
 - [x] Replaced all figures with the new cool julia-like plotting style.
 - [x] Verify with M. Daucé that the training scheme for the 128x128 is good on all contrasts.
   - [x] Retrain with variable contrast on all epochs from the beginning to see if it's better, **doesn't work**.
- 
+
 - [x] Trained the network for 10 more epochs, **a slight improvement**.
 - [x] Tried training with a grid size of 28x28 to downsample, **failed, in the paper they talk about aliasing effects**.
 - [x] Tried training directly on a dataset with various contrast from the beginning, **failed**.  
+- [x] Final training, train the network for 60 more epochs on various contrasts, **no improvement**.
 - [ ] Read the two notebooks of bicv to understand log-polar coding.
-- [ ] Try FoveaNet to see if it's interesting.
+- [ ] Try making downsampling work.
 - [x] Start preparing slides for BraiNets meeting.
 - [x] Meeting with M. Daucé at the lab.
-- [x] Continue working on slides. 
+- [x] Continue working on slides.
 - [x] Finish Slides.
 - [ ] Start preparing slides for 2nd presentation checkup at Luminy with M. Gonzalez
-- [ ] Lab report.
-- [ ] Final internship defense presentation.
 
 ## **Week 6** - *10th till 16th of May, 2021*
 
 - [ ] Meeting with M. Daucé and M. Perrinet, **Tuesday, 14h00**.
 - [ ] Projet presentation, **Monday, 14h30**.
-- [ ] Internship checkup presentation, **Friday, 15h50**.
+- [ ] Lab report.
+- [ ] Final internship defense presentation.
 
 ## **Week 7** - *17th till 23rd of May, 2021*
-## **Week 8** - *24th till 30th of May, 2021*
 
+- [ ] Internship checkup presentation, **Monday, 15h50**.
+
+## **Week 8** - *24th till 30th of May, 2021*
