@@ -21,10 +21,6 @@
 
 ![28x28 noisy no shift](figures/noisy_no_shift_28x28_data.png)
 
-> After transformation with a STN:
-
-![stn results 28x28 noisy no shift](figures/stn_28x28_noisy_no_shift.png)
-
 ### Training
 - 28x28 Noisy MNIST dataset, with a digit shift standard deviation within the range [0, 15].
 - While training, Each 20 epochs, increment the shift standard deviation by 1 (SGD).
