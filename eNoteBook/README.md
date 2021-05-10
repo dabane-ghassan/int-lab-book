@@ -147,23 +147,22 @@ Modified transformer |  Modified What
 - [x] Replaced all figures with the new cool julia-like plotting style.
 - [x] Verify with M. Daucé that the training scheme for the 128x128 is good on all contrasts.
   - [x] Retrain with variable contrast on all epochs from the beginning to see if it's better, **doesn't work**.
-
 - [x] Trained the network for 10 more epochs, **a slight improvement**.
 - [x] Tried training with a grid size of 28x28 to downsample, **failed, in the paper they talk about aliasing effects**.
 - [x] Tried training directly on a dataset with various contrast from the beginning, **failed**.  
 - [x] Final training, train the network for 60 more epochs on various contrasts, **no improvement**.
-- [ ] Read the two notebooks of bicv to understand log-polar coding.
-- [ ] Try making downsampling work.
 - [x] Start preparing slides for BraiNets meeting.
 - [x] Meeting with M. Daucé at the lab.
 - [x] Continue working on slides.
 - [x] Finish Slides.
-- [ ] Start preparing slides for 2nd presentation checkup at Luminy with M. Gonzalez
 
 ## **Week 6** - *10th till 16th of May, 2021*
 
+- [x] Projet presentation, **Monday, 14h30**.
+- [ ] Read the two notebooks of bicv to understand log-polar coding.
+- [ ] Try making downsampling work.
+- [ ] Start preparing slides for 2nd presentation checkup at Luminy with M. Gonzalez
 - [ ] Meeting with M. Daucé and M. Perrinet, **Tuesday, 14h00**.
-- [ ] Projet presentation, **Monday, 14h30**.
 - [ ] Lab report.
 - [ ] Final internship defense presentation.
 
