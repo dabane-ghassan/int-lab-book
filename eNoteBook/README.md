@@ -141,7 +141,7 @@ Modified transformer |  Modified What
 - [x] Training on lesser contrasts, **seems to work with only 10 epochs each, and on the 40 std shift**.
 - [x] Add an interpolate to mimic the fovea, **interpolation works when on visualizing**.
 
-## **Week 5** - *3rd till 9th of May, 2021* 🚩
+## **Week 5** - *3rd till 9th of May, 2021* 
 
 - [x] Fixed the problem with the benchmark empty plot.
 - [x] Replaced all figures with the new cool julia-like plotting style.
@@ -156,11 +156,16 @@ Modified transformer |  Modified What
 - [x] Continue working on slides.
 - [x] Finish Slides.
 
-## **Week 6** - *10th till 16th of May, 2021*
+## **Week 6** - *10th till 16th of May, 2021*🚩
 
 - [x] Projet presentation, **Monday, 14h30**.
 - [ ] Read the two notebooks of bicv to understand log-polar coding.
 - [ ] Try making downsampling work.
+  - [x] Used attention matrix, **seems to work, yay!**. 
+  - [x] Adam coverges to a weird inversed scaling local minimum, **go back to sgd**.
+  - [x] Training on SGD with 0.01, **not stable, maybe lr is too big?**.
+  - [x] Tried 0.001 with SGD, **too small, can't find mimina**.
+  - [ ] Trying 0.005 SGD like in the original paper.   
 - [ ] Start preparing slides for 2nd presentation checkup at Luminy with M. Gonzalez
 - [ ] Meeting with M. Daucé and M. Perrinet, **Tuesday, 14h00**.
 - [ ] Lab report.
