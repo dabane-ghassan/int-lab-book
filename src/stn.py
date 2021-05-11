@@ -26,7 +26,7 @@ class STN(nn.Module):
         ## The spatial transformer
         self.transformer_module = SpatialTransformer()
 
-    def forward(self, x: torch.Tensor) -> torch.Tensor:
+    def forward(self: object, x: torch.Tensor) -> torch.Tensor:
         # transform the input
         x, _ = self.transformer_module.stn(x)
 
