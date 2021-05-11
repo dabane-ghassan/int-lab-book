@@ -159,7 +159,7 @@ Modified transformer |  Modified What
 ## **Week 6** - *10th till 16th of May, 2021*🚩
 
 - [x] Projet presentation, **Monday, 14h30**.
-- [ ] Read the two notebooks of bicv to understand log-polar coding.
+- [x] Read the two notebooks of bicv to understand log-polar coding.
 - [ ] Try making downsampling work.
   - [x] Used attention matrix, **seems to work, yay!**. 
   - [x] Adam coverges to a weird inversed scaling local minimum, **go back to sgd**.
@@ -167,7 +167,7 @@ Modified transformer |  Modified What
   - [x] Tried 0.001 with SGD, **too small, can't find mimina**.
   - [ ] Trying 0.005 SGD like in the original paper.   
 - [ ] Start preparing slides for 2nd presentation checkup at Luminy with M. Gonzalez
-- [ ] Meeting with M. Daucé and M. Perrinet, **Tuesday, 14h00**.
+- [x] Meeting with M. Daucé and M. Perrinet, **Tuesday, 14h00**.
 - [ ] Lab report.
 - [ ] Final internship defense presentation.
 
