@@ -52,6 +52,7 @@ Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
 
 ![128x128 noisy shift dataset](figures/data_128x128_noisy_no_shift_.png)
 
+### Affine STN 
 > Training for 90 epochs with a learning rate decay every 30 epochs, each 10 epochs increase the standard deviation of the eccentricity.
 
 ![training stn 128x128](figures/acc_training_stn_128x128.png)
@@ -68,7 +69,7 @@ Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
 
 ![benchmarks](figures/benchmark_stn_whatwhere.png)
 
-### Attention parametrized STN + 28x28 Downsampling in grid generator
+### Attention STN (28x28 Downsampling)
 
 > SGD: lr=0.005, 20 epochs, ~87% accuracy
 
