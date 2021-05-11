@@ -70,8 +70,12 @@ Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
 
 ### Attention parametrized STN + 28x28 Downsampling in grid generator
 
-> SGD: lr=0.005, 10 epochs, ~30% accuracy
-![image](https://user-images.githubusercontent.com/69251989/117764030-1ffe5980-b22c-11eb-9405-d0ad26b0edbd.png)
+> SGD: lr=0.005, 20 epochs, ~87% accuracy
+
+![image](https://user-images.githubusercontent.com/69251989/117794650-b8590600-b24d-11eb-9831-4caa29620a89.png)
+
+![image](https://user-images.githubusercontent.com/69251989/117796045-015d8a00-b24f-11eb-9a26-1bba1d93c6f2.png)
+
 
 > Adam: lr=0.005, 2 epochs, ~90% accuracy
 ![image](https://user-images.githubusercontent.com/69251989/117764391-af0b7180-b22c-11eb-8bd2-02d9800e7394.png)
