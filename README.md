@@ -77,10 +77,6 @@ Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
 ![image](https://user-images.githubusercontent.com/69251989/117796045-015d8a00-b24f-11eb-9a26-1bba1d93c6f2.png)
 
 
-> Adam: lr=0.005, 2 epochs, ~90% accuracy
-![image](https://user-images.githubusercontent.com/69251989/117764391-af0b7180-b22c-11eb-8bd2-02d9800e7394.png)
-
-
 # References
 
 [*[1] Emmanuel Daucé, Pierre Albiges, Laurent U. Perrinet; A dual foveal-peripheral visual processing model implements efficient saccade selection. Journal of Vision 2020;20(8):22.*](https://jov.arvojournals.org/article.aspx?articleid=2770680)
