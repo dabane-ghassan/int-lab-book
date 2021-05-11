@@ -68,6 +68,15 @@ Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
 
 ![benchmarks](figures/benchmark_stn_whatwhere.png)
 
+### Attention parametrized STN + 28x28 Downsampling in grid generator
+
+> SGD: lr=0.005, 10 epochs, ~30% accuracy
+![image](https://user-images.githubusercontent.com/69251989/117764030-1ffe5980-b22c-11eb-9405-d0ad26b0edbd.png)
+
+> Adam: lr=0.005, 2 epochs, ~90% accuracy
+![image](https://user-images.githubusercontent.com/69251989/117764391-af0b7180-b22c-11eb-8bd2-02d9800e7394.png)
+
+
 # References
 
 [*[1] Emmanuel Daucé, Pierre Albiges, Laurent U. Perrinet; A dual foveal-peripheral visual processing model implements efficient saccade selection. Journal of Vision 2020;20(8):22.*](https://jov.arvojournals.org/article.aspx?articleid=2770680)
