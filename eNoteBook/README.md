@@ -160,13 +160,19 @@ Modified transformer |  Modified What
 
 - [x] Projet presentation, **Monday, 14h30**.
 - [x] Read the two notebooks of bicv to understand log-polar coding.
-- [ ] Try making downsampling work.
+- [ ] ***Try Attention Model***.
   - [x] Used attention matrix, **seems to work, yay!**. 
   - [x] Adam coverges to a weird inversed scaling local minimum, **go back to sgd**.
   - [x] Training on SGD with 0.01, **not stable, maybe lr is too big?**.
   - [x] Tried 0.001 with SGD, **too small, can't find mimina**.
-  - [ ] Trying 0.005 SGD like in the original paper.   
-- [ ] Start preparing slides for 2nd presentation checkup at Luminy with M. Gonzalez
+  - [x] Trying 0.005 SGD like in the original paper **Works, but we have overfitting**.
+  - [x] Training on 0.002, **too slow**.
+  - [x] Training on 0.01 seems good and faster, but still overfitting.
+  - [ ] **Architechture too complex**? Took out two conv layers from localization to handle overfitting.
+    - [x] Trained on 0.01, seemed good, but sudden drop of accuracy after 14 epochs, reached 67% before.
+    - [x] Trying with 0.05 for 10 epochs, doesn't work.
+    - [x] Trying with 0.005 for 10 epochs.
+- [x] Start preparing slides for 2nd presentation checkup at Luminy with M. Gonzalez
 - [x] Meeting with M. Daucé and M. Perrinet, **Tuesday, 14h00**.
 - [ ] Lab report.
 - [ ] Final internship defense presentation.
