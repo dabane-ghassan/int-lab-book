@@ -167,11 +167,14 @@ Modified transformer |  Modified What
   - [x] Tried 0.001 with SGD, **too small, can't find mimina**.
   - [x] Trying 0.005 SGD like in the original paper **Works, but we have overfitting**.
   - [x] Training on 0.002, **too slow**.
-  - [x] Training on 0.01 seems good and faster, but still overfitting.
-  - [ ] **Architechture too complex**? Took out two conv layers from localization to handle overfitting.
+  - [x] Training on 0.01 seems good and faster, but still overfitting, **NO**.
+  - [x] **Architechture too complex**? Took out conv layers from localization to handle overfitting.
     - [x] Trained on 0.01, seemed good, but sudden drop of accuracy after 14 epochs, reached 67% before.
     - [x] Trying with 0.05 for 10 epochs, doesn't work.
-    - [x] Trying with 0.005 for 10 epochs.
+    - [x] Trying with 0.005 for 10 epochs, doesn't work.
+    - [x] 3 convulutions instead of 4, learning seems faster, but overfitting after 6 epochs SGD with 0.01.
+    - [x] Trying momentum with the previous point.
+  - [ ] Trying SGD 0.01, 20 epochs, 0.9 momentum and with exponential decay in lr.
 - [x] Start preparing slides for 2nd presentation checkup at Luminy with M. Gonzalez
 - [x] Meeting with M. Daucé and M. Perrinet, **Tuesday, 14h00**.
 - [ ] Lab report.
