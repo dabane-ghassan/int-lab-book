@@ -177,11 +177,13 @@ Modified transformer |  Modified What
   - [ ] Trying SGD 0.01, 20 epochs, 0.9 momentum and with exponential decay in lr.
 - [x] Start preparing slides for 2nd presentation checkup at Luminy with M. Gonzalez
 - [x] Meeting with M. Daucé and M. Perrinet, **Tuesday, 14h00**.
-- [ ] Lab report.
-- [ ] Final internship defense presentation.
+- [ ] Prepare a lab report template word file.
+- [ ] Prepare a lab report cover.
 
 ## **Week 7** - *17th till 23rd of May, 2021*
 
 - [ ] Internship checkup presentation, **Monday, 15h50**.
+- [ ] Final internship defense presentation.
+- [ ] Lab report.
 
 ## **Week 8** - *24th till 30th of May, 2021*
