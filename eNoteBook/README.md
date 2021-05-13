@@ -175,6 +175,7 @@ Modified transformer |  Modified What
     - [x] 3 convulutions instead of 4, learning seems faster, but overfitting after 6 epochs SGD with 0.01.
     - [x] Trying momentum with the previous point.
   - [x] Trying SGD 0.01, 20 epochs, 0.9 momentum and with exponential decay in lr, **nope**.
+  - [x] Trying SGD 0.01, 20 epochs (for first 2 contrasts), with exponential decay in lr, 87%, converged to an inverse scaling factor like adam?????
 - [x] Start preparing slides for 2nd presentation checkup at Luminy with M. Gonzalez
 - [x] Meeting with M. Daucé and M. Perrinet, **Tuesday, 14h00**.
 - [x] Fixed the problem with the affine STN with retraining on a lesser lr for only 20 epochs, **even more amazing results**.
