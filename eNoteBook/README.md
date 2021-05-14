@@ -176,6 +176,9 @@ Modified transformer |  Modified What
     - [x] Trying momentum with the previous point.
   - [x] Trying SGD 0.01, 20 epochs, 0.9 momentum and with exponential decay in lr, **nope**.
   - [x] Trying SGD 0.01, 20 epochs (for first 2 contrasts), with exponential decay in lr, 87%, converged to an inverse scaling factor like adam?????
+  - [x] Retryin last point with stepLR (every 5 epochs) instead of exponentialLR.
+  - [x] SGD, 0.005, stepLR every 10 epochs (0.9 gamma).
+  - [x] Try to initialize scaling as 1.
 - [x] Start preparing slides for 2nd presentation checkup at Luminy with M. Gonzalez
 - [x] Meeting with M. Daucé and M. Perrinet, **Tuesday, 14h00**.
 - [x] Fixed the problem with the affine STN with retraining on a lesser lr for only 20 epochs, **even more amazing results**.
