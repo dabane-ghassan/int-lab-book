@@ -1,4 +1,4 @@
-![cover](https://user-images.githubusercontent.com/69251989/116857061-76501480-abfc-11eb-8025-b1a4626d5d7a.png)
+![internship cover](cover.png)
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
@@ -44,7 +44,7 @@ Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
 
 ![results](figures/results_trained.png)
 
-## The Spatial Transformer Network Vs. The What/Where pathway<sup>1</sup>
+## Spatial Transformer Networks Vs. The What/Where pathway<sup>1</sup>
 
 ### Exploring the 128x128 Noisy MNIST dataset <sup>1</sup>.
 
@@ -53,7 +53,7 @@ Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
 ![128x128 noisy shift dataset](figures/data_128x128_noisy_no_shift_.png)
 
 ### Affine STN 
-> Training for 110 epochs with a learning rate that decays by a factor of 10 every 30 epochs, each 10 epochs increase the standard deviation of the eccentricity, last 20 epochs vary the contrast.
+> Training for 110 epochs with a starting learning rate of 0.01 that decays by a factor of 10 every 30 epochs, each 10 epochs increase the standard deviation of the eccentricity, last 20 epochs vary the contrast.
 
 ![training stn 128x128](figures/acc_training_stn_128x128.png)
 
@@ -65,20 +65,28 @@ Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
 
 ![contrast 128x128](figures/contrast_128x128.png)
 
-> Accuracy comparison with the What/Where model, in function of contrast and eccentricity of the digit on the screen.
 
-![benchmarks](figures/benchmark_stn_whatwhere.png)
 
 ### Attention STN (28x28 Downsampling)
 
-> SGD: lr=0.005, 20 epochs, ~87% accuracy
+> Training for 110 epochs with a starting learning rate of 0.01 that decays by a half every 10 epochs, each 10 epochs increase the standard deviation of the eccentricity, last 20 epochs vary the contrast.
 
-![image](https://user-images.githubusercontent.com/69251989/117794650-b8590600-b24d-11eb-9831-4caa29620a89.png)
+![training stn 128x128](figures/acc_training_atn.png)
 
-![image](https://user-images.githubusercontent.com/69251989/117796045-015d8a00-b24f-11eb-9a26-1bba1d93c6f2.png)
+> After transformation with a ATN (STN parametrized for attention), the digit is shifted by 40 pixels to check if the network can catch it:
 
-> Problem ?????????
-> ![image](https://user-images.githubusercontent.com/69251989/118109736-dbb4ba00-b3e1-11eb-9e18-bc75074acbef.png)
+![transformed atn_128x128](figures/atn_attention.png)
+
+> Performance when the contrast is 30 and the digit is shifted by 40 pixels (the maximum amount):
+
+![contrast 128x128](figures/atn_attention_0.3.png)
+
+
+### Benchmark
+
+> Accuracy comparison of spattial transformer networks with the What/Where model, in function of contrast and eccentricity of the digit on the screen.
+
+![benchmarks](figures/benchmark.png)
 
 # References
 
