@@ -185,7 +185,8 @@ Modified transformer |  Modified What
 - [x] Fixed the problem with the affine STN with retraining on a lesser lr for only 20 epochs, **even more amazing results**.
 - [x] Replaced figures for affine stn.
 - [x] Cleaned the repo.
-- [x] Cleaned the repo a second time. 
+- [x] Cleaned the repo a second time.
+- [x] Finishing up the attention transformer.
 - [ ] Prepare a lab report template word file.
 - [x] Prepare a lab report cover.
 
