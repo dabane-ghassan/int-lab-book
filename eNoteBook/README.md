@@ -187,13 +187,13 @@ Modified transformer |  Modified What
 - [x] Cleaned the repo.
 - [x] Cleaned the repo a second time.
 - [x] Finishing up the attention transformer.
-- [ ] Prepare a lab report template word file.
 - [x] Prepare a lab report cover.
 
 ## **Week 7** - *17th till 23rd of May, 2021*
 
-- [ ] Internship checkup presentation, **Monday, 15h50**.
+- [x] Internship checkup presentation, **Monday, 15h50**.
+- [ ] Start the lab report.
 - [ ] Final internship defense presentation.
-- [ ] Lab report.
+
 
 ## **Week 8** - *24th till 30th of May, 2021*
