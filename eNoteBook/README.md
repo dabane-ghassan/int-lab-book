@@ -194,7 +194,7 @@ Modified transformer |  Modified What
 - [x] Internship checkup presentation, **Monday, 15h50**.
 - [x] Factored AttentionTransNet to a script.
 - [x] polo-stn architechture.
-  - [ ]  
+  - [x] Added PYramid2 script.
 - [ ] Start the lab report.
 - [ ] Final internship defense presentation.
 
