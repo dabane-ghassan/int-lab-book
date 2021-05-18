@@ -193,8 +193,10 @@ Modified transformer |  Modified What
 
 - [x] Internship checkup presentation, **Monday, 15h50**.
 - [x] Factored AttentionTransNet to a script.
+- [x] Factored train and test functions.
 - [x] polo-stn architechture.
   - [x] Added PYramid2 script.
+  - [x] Rerun the script to see the dataset with POLO coordinates, compression ~95%. 
 - [ ] Start the lab report.
 - [ ] Final internship defense presentation.
 

@@ -32,7 +32,7 @@ def view_dataset(loader: torch.utils.data.DataLoader, n: int=10) -> plt.Figure:
         ax.set_yticks([])
     return fig
     
-def train(epoch, loader):
+def train(model, device, epoch, loader):
     model.train()
     for batch_idx, (data, target) in enumerate(loader):
         data, target = data.to(device, dtype=torch.float), target.to(device)
@@ -48,7 +48,7 @@ def train(epoch, loader):
                 len(train_loader.dataset),
                 100. * batch_idx / len(train_loader), loss.item()))
 
-def test(loader):
+def test(model, device, loader):
     with torch.no_grad():
         model.eval()
         test_loss = 0
