@@ -159,20 +159,43 @@ Modified transformer |  Modified What
 ## **Week 6** - *10th till 16th of May, 2021*🚩
 
 - [x] Projet presentation, **Monday, 14h30**.
-- [ ] Read the two notebooks of bicv to understand log-polar coding.
-- [ ] Try making downsampling work.
+- [x] Read the two notebooks of bicv to understand log-polar coding.
+- [x] ***Try Attention Model***.
   - [x] Used attention matrix, **seems to work, yay!**. 
   - [x] Adam coverges to a weird inversed scaling local minimum, **go back to sgd**.
   - [x] Training on SGD with 0.01, **not stable, maybe lr is too big?**.
   - [x] Tried 0.001 with SGD, **too small, can't find mimina**.
-  - [ ] Trying 0.005 SGD like in the original paper.   
-- [ ] Start preparing slides for 2nd presentation checkup at Luminy with M. Gonzalez
-- [ ] Meeting with M. Daucé and M. Perrinet, **Tuesday, 14h00**.
-- [ ] Lab report.
-- [ ] Final internship defense presentation.
+  - [x] Trying 0.005 SGD like in the original paper **Works, but we have overfitting**.
+  - [x] Training on 0.002, **too slow**.
+  - [x] Training on 0.01 seems good and faster, but still overfitting, **NO**.
+  - [x] **Architechture too complex**? Took out conv layers from localization to handle overfitting.
+    - [x] Trained on 0.01, seemed good, but sudden drop of accuracy after 14 epochs, reached 67% before.
+    - [x] Trying with 0.05 for 10 epochs, doesn't work.
+    - [x] Trying with 0.005 for 10 epochs, doesn't work.
+    - [x] 3 convolutions instead of 4, learning seems faster, but overfitting after 6 epochs SGD with 0.01.
+    - [x] Trying momentum with the previous point.
+  - [x] Trying SGD 0.01, 20 epochs, 0.9 momentum and with exponential decay in lr, **nope**.
+  - [x] Trying SGD 0.01, 20 epochs (for first 2 contrasts), with exponential decay in lr, 87%, converged to an inverse scaling factor like adam?????
+  - [x] Retryin last point with stepLR (every 5 epochs) instead of exponentialLR.
+  - [x] SGD, 0.005, stepLR every 10 epochs (0.9 gamma).
+  - [x] Try to initialize scaling as 1, **No, network can't learn because we are downsampling**.
+  - [x] Initialize scaling as .25 (28/128), SGD, 0.01, 20 epochs and exponential decay in lr (0.9), **it seems good**.
+- [x] Start preparing slides for 2nd presentation checkup at Luminy with M. Gonzalez
+- [x] Meeting with M. Daucé and M. Perrinet, **Tuesday, 14h00**.
+- [x] Fixed the problem with the affine STN with retraining on a lesser lr for only 20 epochs, **even more amazing results**.
+- [x] Replaced figures for affine stn.
+- [x] Cleaned the repo.
+- [x] Cleaned the repo a second time.
+- [x] Finishing up the attention transformer.
+- [x] Prepare a lab report cover.
 
 ## **Week 7** - *17th till 23rd of May, 2021*
 
-- [ ] Internship checkup presentation, **Monday, 15h50**.
+- [x] Internship checkup presentation, **Monday, 15h50**.
+- [x] Factored AttentionTransNet to a script.
+- [x] polo-stn architechture.
+  - [ ]  
+- [ ] Start the lab report.
+- [ ] Final internship defense presentation.
 
 ## **Week 8** - *24th till 30th of May, 2021*

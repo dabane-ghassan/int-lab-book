@@ -129,5 +129,8 @@ dmypy.json
 # models (big so no need to track)
 models/
 
+# intermediary results to save in case of a catastrophe :P
+intermediary/
+
 # Pyre type checker
 .pyre/
