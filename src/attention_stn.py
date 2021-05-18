@@ -10,6 +10,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 class AttentionTransNet(nn.Module):
+
     def __init__(self):
         super(AttentionTransNet, self).__init__()
 
