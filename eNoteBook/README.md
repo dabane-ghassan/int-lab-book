@@ -192,8 +192,10 @@ Modified transformer |  Modified What
 ## **Week 7** - *17th till 23rd of May, 2021*
 
 - [x] Internship checkup presentation, **Monday, 15h50**.
+- [x] Factored AttentionTransNet to a script.
+- [x] polo-stn architechture.
+  - [ ]  
 - [ ] Start the lab report.
 - [ ] Final internship defense presentation.
-
 
 ## **Week 8** - *24th till 30th of May, 2021*
