@@ -60,7 +60,7 @@ def cropped_pyramid(img_tens,
                     gauss=False, 
                     n_levels=None,
                     color_mode='rgb'):
-    
+
     n_batch, _, N_X, N_Y = img_tens.shape 
     # tensor of the images  (dimension 4)
     if n_levels == None:
@@ -448,7 +448,8 @@ def get_K_inv(K,width=width, n_sublevel = n_sublevel, n_azimuth = n_azimuth, n_t
     return K_inv
 
 def inverse_gabor(log_gabor_coeffs, K_inv, verbose=False):
-    print('Tensor shape=', K_inv.shape)
+    if verbose:
+    	print('Tensor shape=', K_inv.shape)
     img_crop =  torch.tensordot(log_gabor_coeffs, K_inv,  dims=4)
     #img_crop+=128 # !! on residuals only !!
     return img_crop
