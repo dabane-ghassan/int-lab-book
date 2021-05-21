@@ -200,7 +200,8 @@ Modified transformer |  Modified What
   - [x] started a test training with the ordinary STN architechture without any change, **ofcourse it won't work, what was i thinking?**.
 - [x] New polo_stn architechture:
   - [x] An only FC localization network.
-  - [x] 
+
+- [x] Made the transform return the image as its polo representation.
 - [x] Start the lab report.
 - [ ] Final internship defense presentation.
 
