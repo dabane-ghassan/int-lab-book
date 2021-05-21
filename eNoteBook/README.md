@@ -198,9 +198,10 @@ Modified transformer |  Modified What
   - [x] Added PYramid2 script.
   - [x] Rerun the script to see the dataset with POLO coordinates, compression ~95%.
   - [x] started a test training with the ordinary STN architechture without any change, **ofcourse it won't work, what was i thinking?**.
-- [ ] New polo_stn architechture:
+- [x] New polo_stn architechture:
   - [x] An only FC localization network.
-- [ ] Start the lab report.
+  - [x] 
+- [x] Start the lab report.
 - [ ] Final internship defense presentation.
 
 ## **Week 8** - *24th till 30th of May, 2021*
