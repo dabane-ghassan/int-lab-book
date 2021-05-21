@@ -102,6 +102,8 @@ Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
 
 [*[6] Paszke, A., Gross, S., Massa, F., Lerer, A., Bradbury, J., Chanan, G., … Chintala, S. (2019). PyTorch: An imperative style, high-performance deep learning library. In Wallach, H., Larochelle, H., Beygelzimer, A., d'Alché-Buc, F., Fox, E., Garnett, R. (Eds.), Advances in neural information processing systems 32 (pp. 8024–8035). Long Beach Convention Center, Long Beach: Curran Associates, Inc.*](https://arxiv.org/abs/1912.01703)
 
+[*[7] Mishkin, M., Ungerleider, L. G., & Macko, K. A. (1983). Object vision and spatial vision: Two cortical pathways. Trends in Neurosciences, 6, 414–417.*](https://www.sciencedirect.com/science/article/abs/pii/016622368390190X?via%3Dihub)
+
 # Miscellaneous
 
 - DeepMind's NIPS 2015 Video experiment on STNs [here](https://drive.google.com/file/d/0B1nQa_sA3W2iN3RQLXVFRkNXN0k/view)
