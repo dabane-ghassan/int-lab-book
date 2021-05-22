@@ -31,7 +31,7 @@
 
 ### Performance
 
-- **Overall results**: *Central* accuracy of **96%** and *general* accuracy of **51%**, compared to **84%** and **34%** in the generic what pathway, respectively.
+- **Overall results**: *Central* accuracy of **88%** and *general* accuracy of **43%**, compared to **84%** and **34%** in the generic what pathway, respectively.
 
 > Accuracy map comparaison with the generic what pathway from the paper with the same training parameters:
 
@@ -42,7 +42,7 @@ Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
 
 > A test on a noisy dataset with a shift standard deviation = 7
 
-![results](figures/results_trained.png)
+![results](figures/transforms_28x28.png)
 
 ## Spatial Transformer Networks Vs. The What/Where pathway<sup>1</sup>
 
