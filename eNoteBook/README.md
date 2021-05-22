@@ -98,11 +98,8 @@ Modified transformer |  Modified What
 - [x] Meeting with M. Daucé, **Thursday, 14:00**
 
 - [x] Trying to take out one fully connected layers in the Spatial Transformer and see how it performs, **Works** 
- 
 - [x] Reread the original paper to investigate the structure.
-
 - [x] Factored view_dataset() in a function in utils.py
- 
 
 ## **Week 4** - *26th of April till 2nd of May, 2021*
 
@@ -205,7 +202,13 @@ Modified transformer |  Modified What
   - [x] Passing original and polo tensors in the forward func of the transformer.
 - [x] Training SGD 0.01, 20 epochs, not stable at all.
 - [x] Made the transform return the image as its polo representation.
+- [x] First training of polo stn on 4 eccentricity.
 - [x] Start the lab report.
+  - [ ] Research context.
+  - [ ] Introduction.
+  - [ ] Materials and Methods.
+  - [ ] Results.
+  - [ ] Discusssion and Perspectives. 
 - [ ] Final internship defense presentation.
 
 ## **Week 8** - *24th till 30th of May, 2021*
