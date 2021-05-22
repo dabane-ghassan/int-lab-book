@@ -203,8 +203,9 @@ Modified transformer |  Modified What
 - [x] Training SGD 0.01, 20 epochs, not stable at all.
 - [x] Made the transform return the image as its polo representation.
 - [x] First training of polo stn on 4 eccentricity.
+- [x] Rerun the STN_28x28 for a variable contrast.
 - [x] Start the lab report.
-  - [ ] Research context.
+  - [x] Research context.
   - [ ] Introduction.
   - [ ] Materials and Methods.
   - [ ] Results.
