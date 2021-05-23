@@ -204,6 +204,7 @@ Modified transformer |  Modified What
 - [x] Made the transform return the image as its polo representation.
 - [x] First training of polo stn on 4 eccentricity.
 - [x] Rerun the STN_28x28 for a variable contrast.
+- [x] Trained the polo_stn on contrast 0.7, **ok**.
 - [x] Start the lab report.
   - [x] Research context.
   - [ ] Introduction.
