@@ -83,6 +83,9 @@ Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
 
 ### POLO-ATN (Polar-Logarithmic input for Attention-parametrized STN with 28x28 Downsampling)
 
+> Polar-Logarithmic compression: the filters were placed on [theta=8, eccentricity=6, azimuth=16], on 768 dimensions, providing a compression of 
+~**95%**, the original what/where model had 2880 filters, with a lesser compression rate of ~**83%**.
+
 > Training for 110 epochs with a starting learning rate of 0.005 that decays by a half every 10 epochs, each 10 epochs increase the standard deviation of the eccentricity, last 20 epochs vary the contrast.
 
 ![training polo_atn](figures/acc_training_polo_atn.png)
