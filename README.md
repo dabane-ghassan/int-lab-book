@@ -52,7 +52,7 @@ Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
 
 ![128x128 noisy shift dataset](figures/data_128x128_noisy_no_shift_.png)
 
-### Affine STN 
+### STN_128x128 (Affine STN) 
 > Training for 110 epochs with a starting learning rate of 0.01 that decays by a factor of 10 every 30 epochs, each 10 epochs increase the standard deviation of the eccentricity, last 20 epochs vary the contrast.
 
 ![training stn 128x128](figures/acc_training_stn_128x128.png)
@@ -67,7 +67,7 @@ Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
 
 
 
-### Attention STN (28x28 Downsampling)
+### ATN (Attention-parametrized STN with 28x28 Downsampling)
 
 > Training for 110 epochs with a starting learning rate of 0.01 that decays by a half every 10 epochs, each 10 epochs increase the standard deviation of the eccentricity, last 20 epochs vary the contrast.
 
@@ -81,6 +81,15 @@ Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
 
 ![contrast 128x128](figures/atn_attention_0.3.png)
 
+### POLO-ATN (Polar-Logarithmic input for Attention-parametrized STN with 28x28 Downsampling)
+
+> Training for 110 epochs with a starting learning rate of 0.005 that decays by a half every 10 epochs, each 10 epochs increase the standard deviation of the eccentricity, last 20 epochs vary the contrast.
+
+![training polo_atn](figures/acc_training_polo_atn.png)
+
+> After transformation with a POLO-ATN, the digit is shifted by 40 pixels to check if the network can catch it:
+
+![transformed polo_atn](figures/polo_atn_attention.png)
 
 ### Benchmark
 
