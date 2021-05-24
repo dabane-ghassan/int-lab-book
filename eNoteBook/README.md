@@ -220,3 +220,10 @@ Modified transformer |  Modified What
   - [ ] Results.
   - [ ] Discusssion and Perspectives.
 - [ ] Final internship defense presentation.
+
+
+# Miscellaneous
+
+- DeepMind's NIPS 2015 Video experiment on STNs [here](https://drive.google.com/file/d/0B1nQa_sA3W2iN3RQLXVFRkNXN0k/view)
+- What/Where model <sup>1</sup> paper github repo [here](https://github.com/laurentperrinet/WhereIsMyMNIST)
+- Foveated convolutions <sup>3</sup> paper github repo [here](https://github.com/ethanwharris/foveated-convolutions)
