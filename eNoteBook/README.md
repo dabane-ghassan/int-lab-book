@@ -207,10 +207,16 @@ Modified transformer |  Modified What
 - [x] Trained the polo_stn on contrast 0.7, **ok**.
 - [x] Start the lab report.
   - [x] Research context.
+- [x] Installed Mendeley and got all necessary references.
+
+## **Week 8** - *24th till 30th of May, 2021*
+
+- [x] Finished training the polo-stn, **ok**.
+- [x] Generated all figures.
+- [x] Added the polo-stn to readme.
+- [x]  Continue the lab report
   - [ ] Introduction.
   - [ ] Materials and Methods.
   - [ ] Results.
-  - [ ] Discusssion and Perspectives. 
+  - [ ] Discusssion and Perspectives.
 - [ ] Final internship defense presentation.
-
-## **Week 8** - *24th till 30th of May, 2021*
