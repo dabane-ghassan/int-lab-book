@@ -213,8 +213,9 @@ Modified transformer |  Modified What
 
 - [x] Finished training the polo-stn, **ok**.
 - [x] Generated all figures.
-- [x] Added the polo-stn to readme.
-- [x]  Continue the lab report
+- [x] Added the polo-atn to readme.
+- [x] Factoring Polo-atn.
+- [x] Continue the lab report
   - [ ] Introduction.
   - [ ] Materials and Methods.
   - [ ] Results.
