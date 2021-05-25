@@ -107,19 +107,3 @@ Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
 [*[1] Emmanuel Daucé, Pierre Albiges, Laurent U. Perrinet; A dual foveal-peripheral visual processing model implements efficient saccade selection. Journal of Vision 2020;20(8):22.*](https://jov.arvojournals.org/article.aspx?articleid=2770680)
 
 [*[2] Max Jaderberg, Karen Simonyan, Andrew Zisserman, Koray Kavukcuoglu; Spatial Transformer Networks. arXiv:1506.02025*](https://arxiv.org/abs/1506.02025)
-
-[*[3] Ethan Harris, Mahesan Niranjan, Jonathon Hare; Foveated Convolutions: Improving Spatial Transformer Networks by Modelling the Retina.	1st Workshop on Shared Visual Representations in Human and Machine Intelligence (SVRHM), NeurIPS 2019.*](https://eprints.soton.ac.uk/441204/1/5_CameraReadySubmission_workshop.pdf)
-
-[*[4] Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, Jakob Uszkoreit, Neil Houlsby; An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale.	arXiv:2010.11929*](https://arxiv.org/pdf/2010.11929.pdf)
-
-[*[5] Lecun, Y., Bottou, L., Bengio, Y., & Haffner, P. (1998). Gradient-based learning applied to document recognition. Proceedings of the IEEE, 86, 2278–2324, doi:10/d89c25*](https://ieeexplore.ieee.org/document/726791/)
-
-[*[6] Paszke, A., Gross, S., Massa, F., Lerer, A., Bradbury, J., Chanan, G., … Chintala, S. (2019). PyTorch: An imperative style, high-performance deep learning library. In Wallach, H., Larochelle, H., Beygelzimer, A., d'Alché-Buc, F., Fox, E., Garnett, R. (Eds.), Advances in neural information processing systems 32 (pp. 8024–8035). Long Beach Convention Center, Long Beach: Curran Associates, Inc.*](https://arxiv.org/abs/1912.01703)
-
-[*[7] Mishkin, M., Ungerleider, L. G., & Macko, K. A. (1983). Object vision and spatial vision: Two cortical pathways. Trends in Neurosciences, 6, 414–417.*](https://www.sciencedirect.com/science/article/abs/pii/016622368390190X?via%3Dihub)
-
-# Miscellaneous
-
-- DeepMind's NIPS 2015 Video experiment on STNs [here](https://drive.google.com/file/d/0B1nQa_sA3W2iN3RQLXVFRkNXN0k/view)
-- What/Where model <sup>1</sup> paper github repo [here](https://github.com/laurentperrinet/WhereIsMyMNIST)
-- Foveated convolutions <sup>3</sup> paper github repo [here](https://github.com/ethanwharris/foveated-convolutions)
