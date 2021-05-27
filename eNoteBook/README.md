@@ -215,7 +215,8 @@ Modified transformer |  Modified What
 - [x] Generated all figures.
 - [x] Added the polo-atn to readme.
 - [x] Factoring Polo-atn.
-- [x] Retrained with lesser compression.
+- [x] Retrained with lesser compression, **nope**.
+- [x] Tried another compression params.
 - [x] Continue the lab report
   - [x] Introduction.
   - [ ] Materials and Methods.
