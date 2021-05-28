@@ -21,9 +21,11 @@
 
 ![28x28 noisy no shift](figures/noisy_no_shift_28x28_data.png)
 
-### Training
-- 28x28 Noisy MNIST dataset, with a digit shift standard deviation within the range [0, 15].
-- While training, Each 20 epochs, increment the shift standard deviation by 1 (SGD).
+### STN_28x28
+- ***Spatial Transformer: 2 convolutional layers in localization network (ConvNet), grid sampler without downscaling (28x28 pixels) &#8594; <img src="https://latex.codecogs.com/gif.latex?\bold{\theta}"/> (affine transformations) = 6 parameters***
+
+
+- Training for 160  epochs with SGD, learning rate of 0.01 without decay, Each 10 epochs, increment the shift standard deviation by 1 [0, 15].
 
 > Training statistics:
 
@@ -52,8 +54,9 @@ Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
 
 ![128x128 noisy shift dataset](figures/data_128x128_noisy_no_shift_.png)
 
-### STN_128x128 (Affine STN) 
-> Training for 110 epochs with a starting learning rate of 0.01 that decays by a factor of 10 every 30 epochs, each 10 epochs increase the standard deviation of the eccentricity, last 20 epochs vary the contrast.
+### STN_128x128 
+- ***Spatial Transformer: 4 convolutional layers in localization network (ConvNet), grid sampler without downscaling (128x128 pixels) &#8594; <img src="https://latex.codecogs.com/gif.latex?\bold{\theta}"/>  (affine transformations) = 6 parameters***
+> Training for 110 epochs with an initial learning rate of 0.01 that decays by a factor of 10 every 30 epochs, each 10 epochs increase the standard deviation of the eccentricity, last 20 epochs vary the contrast.
 
 ![training stn 128x128](figures/acc_training_stn_128x128.png)
 
@@ -67,9 +70,11 @@ Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
 
 
 
-### ATN (Attention-parametrized STN with 28x28 Downsampling)
+### ATN
 
-> Training for 110 epochs with a starting learning rate of 0.01 that decays by a half every 10 epochs, each 10 epochs increase the standard deviation of the eccentricity, last 20 epochs vary the contrast.
+- ***Spatial Transformer: 4 convolutional layers in localization network (ConvNet), grid sampler with downscaling (28x28 pixels) &#8594; <img src="https://latex.codecogs.com/gif.latex?\bold{\theta}"/>  (attention) = 3 parameters***
+
+> Training for 110 epochs with an initial learning rate of 0.01 that decays by a half every 10 epochs, each 10 epochs increase the standard deviation of the eccentricity, last 20 epochs vary the contrast.
 
 ![training stn 128x128](figures/acc_training_atn.png)
 
@@ -81,14 +86,16 @@ Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
 
 ![contrast 128x128](figures/atn_attention_0.3.png)
 
-### POLO-ATN (Polar-Logarithmic input for Attention-parametrized STN with 28x28 Downsampling)
+### POLO_ATN
+
+- ***Spatial Transformer: 2 fully-connected layers in localization network (FeedForward Net), grid sampler with downscaling (28x28 pixels) &#8594; <img src="https://latex.codecogs.com/gif.latex?\bold{\theta}"/>  (fixed attention) = 2 parameters***
 
 > Polar-Logarithmic compression: the filters were placed on [theta=8, eccentricity=6, azimuth=16], on 768 dimensions, providing a compression of 
 ~**95%**, the original what/where model had 2880 filters, with a lesser compression rate of ~**83%**.
 
 ![polo_transformed_dataset](figures/polo_dataset.png)
 
-> Training for 110 epochs with a starting learning rate of 0.005 that decays by a half every 10 epochs, each 10 epochs increase the standard deviation of the eccentricity, last 20 epochs vary the contrast.
+> Training for 110 epochs with an initial learning rate of 0.005 that decays by a half every 10 epochs, each 10 epochs increase the standard deviation of the eccentricity, last 20 epochs vary the contrast.
 
 ![training polo_atn](figures/acc_training_polo_atn.png)
 
