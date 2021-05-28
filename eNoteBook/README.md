@@ -217,6 +217,7 @@ Modified transformer |  Modified What
 - [x] Factoring Polo-atn.
 - [x] Retrained with lesser compression, **nope**.
 - [x] Tried another compression params.
+- [x] Replaced benchmark fig labels.
 - [x] Continue the lab report
   - [x] Introduction.
   - [ ] Materials and Methods.
