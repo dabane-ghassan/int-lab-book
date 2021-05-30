@@ -105,7 +105,7 @@ Spatial Transformer Network             |  Generic What pathway <sup>1</sup>
 
 ### Benchmark
 
-> Accuracy comparison of spattial transformer networks with the What/Where model, in function of contrast and eccentricity of the digit on the screen.
+> Accuracy comparison of spatial transformer networks with the What/Where model, in function of contrast and eccentricity of the digit on the screen.
 
 ![benchmarks](figures/benchmark.png)
 
