@@ -220,9 +220,15 @@ Modified transformer |  Modified What
 - [x] Replaced benchmark fig labels.
 - [x] Continue the lab report
   - [x] Introduction.
-  - [ ] Materials and Methods.
-  - [ ] Results.
-  - [ ] Discusssion and Perspectives.
+
+## **Week 9** - *31st of May till 6th of June, 2021*
+
+- [x] Materials and Methods.
+- [x] Results.
+- [x] Discusssion and Perspectives.
+- [x] Cleaning the lab report.
+- [x] Adding all references.
+- [x] Adding table of contents and table of figures. 
 - [ ] Final internship defense presentation.
 
 
