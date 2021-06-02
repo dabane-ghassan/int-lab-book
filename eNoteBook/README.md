@@ -153,7 +153,7 @@ Modified transformer |  Modified What
 - [x] Continue working on slides.
 - [x] Finish Slides.
 
-## **Week 6** - *10th till 16th of May, 2021*🚩
+## **Week 6** - *10th till 16th of May, 2021*
 
 - [x] Projet presentation, **Monday, 14h30**.
 - [x] Read the two notebooks of bicv to understand log-polar coding.
@@ -221,7 +221,7 @@ Modified transformer |  Modified What
 - [x] Continue the lab report
   - [x] Introduction.
 
-## **Week 9** - *31st of May till 6th of June, 2021*
+## **Week 9** - *31st of May till 6th of June, 2021**🚩
 
 - [x] Materials and Methods.
 - [x] Results.
@@ -229,6 +229,7 @@ Modified transformer |  Modified What
 - [x] Cleaning the lab report.
 - [x] Adding all references.
 - [x] Adding table of contents and table of figures. 
+- [x] Finished abstract and resumé. 
 - [ ] Final internship defense presentation.
 
 
