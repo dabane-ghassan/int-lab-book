@@ -221,7 +221,7 @@ Modified transformer |  Modified What
 - [x] Continue the lab report
   - [x] Introduction.
 
-## **Week 9** - *31st of May till 6th of June, 2021**🚩
+## **Week 9** - *31st of May till 6th of June, 2021*🚩
 
 - [x] Materials and Methods.
 - [x] Results.
@@ -230,7 +230,8 @@ Modified transformer |  Modified What
 - [x] Adding all references.
 - [x] Adding table of contents and table of figures. 
 - [x] Finished abstract and resumé. 
-- [ ] Final internship defense presentation.
+- [x] Verified the report with minor modifications by Mr. Daucé.  
+- [x] Started preparing slides for the internship defense presentation.
 
 
 # Miscellaneous
